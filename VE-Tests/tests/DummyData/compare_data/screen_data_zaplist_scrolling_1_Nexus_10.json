@@ -1,0 +1,158 @@
+{
+    "elements": [
+        {
+            "screen": "zap_list",
+            "name": "zap_list",
+            "action_type": "state"
+        },
+        {
+            "width": 500,
+            "height": 1260,
+            "x_pos": 290,
+            "action_type": "scroll",
+            "y_pos": 220
+        },
+        {
+            "name": "event_view",
+            "x_pos": 290,
+            "channel_id": "108",
+            "event_id": "programid://1830050630~programid://322091748",
+            "time_text": "null",
+            "event_image_url": "file:///android_asset/dummy_images/b1771489c637f5d3936c13b04e31d348.jpg",
+            "title_text": "M0715S108E004:NAME:EN",
+            "height": 558,
+            "width": 500,
+            "synopsis": null,
+            "action_type": "tap",
+            "y_pos": -362,
+            "event_type": "EVENT_CONTENT_TYPE_STANDALONE",
+            "progress_bar": "null",
+            "channel_logo_url": "file:///android_asset/dummy_images/c588573a0c6551db5dbdc4b69ff12f15.png",
+            "channel_number": "8",
+            "channel_name": "DSCHD"
+        },
+        {
+            "name": "event_view",
+            "x_pos": 290,
+            "channel_id": "109",
+            "event_id": "programid://1436549399~programid://521016790",
+            "time_text": "null",
+            "event_image_url": "file:///android_asset/dummy_images/b1771489c637f5d3936c13b04e31d348.jpg",
+            "title_text": "M0715S109E004:NAME:EN",
+            "height": 558,
+            "width": 500,
+            "synopsis": "Having bought a model ship, the Unicorn, for a pound off a market stall Tintin is initially puzzled that the sinister Mr. Sakharine should be so eager to buy it from him, resorting to murder and kidnapping Tintin - accompanied by his marvellous dog Snowy - to join him and his gang as they sail to Morocco on an old cargo ship.",
+            "action_type": "tap",
+            "y_pos": 195,
+            "event_type": "EVENT_CONTENT_TYPE_STANDALONE",
+            "progress_bar": "null",
+            "channel_logo_url": "file:///android_asset/dummy_images/73525ec2245736416e089647685fa534.png",
+            "channel_number": "9",
+            "channel_name": "HISTORY"
+        },
+        {
+            "name": "event_view",
+            "x_pos": 290,
+            "channel_id": "101",
+            "event_id": "programid://503808505~programid://125747479",
+            "time_text": "null",
+            "event_image_url": "file:///android_asset/dummy_images/b9ffa2e63c57ad09a1fc041fd7c37b1e.jpg",
+            "title_text": "M0715S101E007:NAME:EN",
+            "height": 558,
+            "width": 500,
+            "synopsis": "Having bought a model ship, the Unicorn, for a pound off a market stall Tintin is initially puzzled that the sinister Mr. Sakharine should be so eager to buy it from him, resorting to murder and kidnapping Tintin - accompanied by his marvellous dog Snowy - to join him and his gang as they sail to Morocco on an old cargo ship.",
+            "action_type": "tap",
+            "y_pos": 753,
+            "event_type": "EVENT_CONTENT_TYPE_STANDALONE",
+            "progress_bar": "null",
+            "channel_logo_url": "file:///android_asset/dummy_images/7151528f947d0e70731b89dd13b7e774.png",
+            "channel_number": "1",
+            "channel_name": "AETV"
+        },
+        {
+            "name": "event_view",
+            "x_pos": 290,
+            "channel_id": "102",
+            "event_id": "programid://817889506~programid://1046545129",
+            "time_text": "null",
+            "event_image_url": "file:///android_asset/dummy_images/580bb15b0b50e0712fa800c058078fd2.jpg",
+            "title_text": "Y0715S102E061:NAME:EN",
+            "height": 558,
+            "width": 500,
+            "synopsis": "short synopsis. No long synopsis exists.",
+            "action_type": "tap",
+            "y_pos": 1311,
+            "event_type": "EVENT_CONTENT_TYPE_STANDALONE",
+            "progress_bar": "null",
+            "channel_logo_url": "file:///android_asset/dummy_images/39381d145400e5729edd03102ea587cc.png",
+            "channel_number": "2",
+            "channel_name": "FOODHD"
+        },
+        {
+            "name": "text_view",
+            "x_pos": 32,
+            "title_text": "BACK",
+            "height": 82,
+            "width": 94,
+            "action_type": "tap",
+            "y_pos": 70,
+            "id": "BACK",
+            "compare_value": true
+        },
+        {
+            "name": "text_view",
+            "x_pos": 290,
+            "title_text": "HOME",
+            "height": 82,
+            "width": 100,
+            "action_type": "tap",
+            "y_pos": 70,
+            "id": "HOME",
+            "compare_value": true
+        },
+        {
+            "name": "text_view",
+            "x_pos": 1220,
+            "title_text": "CELINE",
+            "height": 82,
+            "width": 120,
+            "action_type": "tap",
+            "y_pos": 70
+        },
+        {
+            "name": "text_view",
+            "x_pos": 2346,
+            "title_text": "FEEDBACK",
+            "height": 82,
+            "width": 182,
+            "action_type": "tap",
+            "y_pos": 70
+        },
+        {
+            "name": "text_view",
+            "x_pos": 290,
+            "height": 30,
+            "action_type": "tap",
+            "y_pos": 185,
+            "id": "",
+            "compare_value": false
+        },
+        {
+            "name": "text_view",
+            "x_pos": 290,
+            "title_text": "FERNSEHEN",
+            "height": 88,
+            "width": 1980,
+            "action_type": "tap",
+            "y_pos": 108
+        },
+        {
+            "name": "events_scroller",
+            "x_pos": 290,
+            "height": 1260,
+            "width": 500,
+            "action_type": "swipe",
+            "y_pos": 220
+        }
+    ]
+}

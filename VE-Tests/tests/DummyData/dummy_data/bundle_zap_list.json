@@ -1,0 +1,380 @@
+{
+    "resource": "channelList",
+    "embedded": {
+        "channelList": {
+            "items": [{
+                "programId": "programid://738198120~programid://572526087",
+                "focused": true,
+                "assetType": "broadcast",
+                "thumbnails": [{
+                    "size": "large",
+                    "mimeType": "image/jpeg",
+                    "uri": "file:///android_asset/debug/dummy_thumbnail_1.jpg"
+                }],
+                "title": "S1C1D2910:Name:En",
+                "startTime": 1414567800000,
+                "duration": 5400000,
+                "rating": 13,
+                "channelName": "Program_1",
+                "logicalChannelNumber": 1,
+                "channelId": "1",
+                "channelLogos": [{
+                    "size": "vect",
+                    "mimeType": "image/png",
+                    "uri": "file:///android_asset/debug/dummy_logo_1.png"
+                }],
+                "links": {
+                    "navigation": [{
+                        "name": "linearFullScreenMetadata",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/tv?serviceId=1&serviceLocator=%7B1%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BMjViMTdkMzczMjM1MDI2YjI0MDc%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                        "triggers": ["tap"],
+                        "target": "/linearfullscreen"
+                    }, {
+                        "name": "linearActionMenu",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/linearActionMenu?serviceId=1&assetType=ltv&region=1",
+                        "triggers": ["right"],
+                        "target": "/actionmenu"
+                    }]
+                }
+            }, {
+                "programId": "programid://884999405~programid://1282409477",
+                "assetType": "broadcast",
+                "thumbnails": [{
+                    "size": "large",
+                    "mimeType": "image/jpeg",
+                    "uri": "file:///android_asset/debug/dummy_thumbnail_2.jpg"
+                }],
+                "title": "A1029S2E048:Name:En",
+                "startTime": 1414569000000,
+                "duration": 600000,
+                "rating": 13,
+                "channelName": "Program_2",
+                "logicalChannelNumber": 2,
+                "channelId": "2",
+                "channelLogos": [{
+                    "size": "vect",
+                    "mimeType": "image/png",
+                    "uri": "file:///android_asset/debug/dummy_logo_2.png"
+                }],
+                "links": {
+                    "navigation": [{
+                        "name": "linearActionMenu",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/linearActionMenu?serviceId=2&assetType=ltv&region=1",
+                        "triggers": ["right"],
+                        "target": "/actionmenu"
+                    }],
+                    "postActions": [{
+                        "name": "linearFullScreenTune",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/fullScreen/playtv?serviceId=2&serviceLocator=%7B2%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BODViN2I5NTc2MWFiY2RhNTVjNWQ%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                        "triggers": ["tap"],
+                        "method": "POST"
+                    }]
+                }
+            }, {
+                "programId": "programid://1827409212~programid://629149068",
+                "assetType": "broadcast",
+                "thumbnails": [{
+                    "size": "large",
+                    "mimeType": "image/jpeg",
+                    "uri": "file:///android_asset/debug/dummy_thumbnail_3.jpg"
+                }],
+                "title": "A1029S3E095:Name:En",
+                "startTime": 1414569000000,
+                "duration": 300000,
+                "rating": 13,
+                "channelName": "Program_3",
+                "logicalChannelNumber": 3,
+                "channelId": "3",
+                "channelLogos": [{
+                    "size": "vect",
+                    "mimeType": "image/png",
+                    "uri": "file:///android_asset/debug/dummy_logo_3.png"
+                }],
+                "links": {
+                    "navigation": [{
+                        "name": "linearActionMenu",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/linearActionMenu?serviceId=3&assetType=ltv&region=1",
+                        "triggers": ["right"],
+                        "target": "/actionmenu"
+                    }],
+                    "postActions": [{
+                        "name": "linearFullScreenTune",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/fullScreen/playtv?serviceId=3&serviceLocator=%7B3%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BNzhjY2E0ZTBiMTU0N2FmZmM4MTk%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                        "triggers": ["tap"],
+                        "method": "POST"
+                    }]
+                }
+            }, {
+                "programId": "programid://1006633808~programid://942672416",
+                "assetType": "broadcast",
+                "thumbnails": [{
+                    "size": "large",
+                    "mimeType": "image/jpeg",
+                    "uri": "file:///android_asset/debug/dummy_thumbnail_4.jpg"
+                }],
+                "title": "W1029S4E006:Name:En",
+                "startTime": 1414567800000,
+                "duration": 5400000,
+                "rating": 13,
+                "channelName": "Program_4",
+                "logicalChannelNumber": 4,
+                "channelId": "4",
+                "channelLogos": [{
+                    "size": "vect",
+                    "mimeType": "image/png",
+                    "uri": "file:///android_asset/debug/dummy_logo_4.png"
+                }],
+                "links": {
+                    "navigation": [{
+                        "name": "linearActionMenu",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/linearActionMenu?serviceId=4&assetType=ltv&region=1",
+                        "triggers": ["right"],
+                        "target": "/actionmenu"
+                    }],
+                    "postActions": [{
+                        "name": "linearFullScreenTune",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/fullScreen/playtv?serviceId=4&serviceLocator=%7B4%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BY2FmOTRiOWUxNWRjZmRjYTllYjc%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                        "triggers": ["tap"],
+                        "method": "POST"
+                    }]
+                }
+            }, {
+                "programId": "programid://870450265~programid://738201880",
+                "assetType": "broadcast",
+                "thumbnails": [{
+                    "size": "large",
+                    "mimeType": "image/jpeg",
+                    "uri": "file:///android_asset/debug/dummy_thumbnail_5.jpg"
+                }],
+                "title": "W1029S5E016:Name:En",
+                "startTime": 1414567800000,
+                "duration": 1800000,
+                "rating": 13,
+                "channelName": "Program_5",
+                "logicalChannelNumber": 5,
+                "channelId": "5",
+                "channelLogos": [{
+                    "size": "vect",
+                    "mimeType": "image/png",
+                    "uri": "file:///android_asset/debug/dummy_logo_5.png"
+                }],
+                "links": {
+                    "navigation": [{
+                        "name": "linearActionMenu",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/linearActionMenu?serviceId=5&assetType=ltv&region=1",
+                        "triggers": ["right"],
+                        "target": "/actionmenu"
+                    }],
+                    "postActions": [{
+                        "name": "linearFullScreenTune",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/fullScreen/playtv?serviceId=5&serviceLocator=%7B5%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BN2Q2YTc3MTUwMmJhYTNjYzFjMjQ%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                        "triggers": ["tap"],
+                        "method": "POST"
+                    }]
+                }
+            }, {
+                "programId": "programid://905970660~programid://597429842",
+                "assetType": "broadcast",
+                "thumbnails": [{
+                    "size": "large",
+                    "mimeType": "image/jpeg",
+                    "uri": "file:///android_asset/debug/dummy_thumbnail_6.jpg"
+                }],
+                "title": "A1029S6E095:Name:En",
+                "startTime": 1414569000000,
+                "duration": 300000,
+                "rating": 13,
+                "channelName": "Program_6",
+                "logicalChannelNumber": 6,
+                "channelId": "6",
+                "channelLogos": [{
+                    "size": "vect",
+                    "mimeType": "image/png",
+                    "uri": "file:///android_asset/debug/dummy_logo_6.png"
+                }],
+                "links": {
+                    "navigation": [{
+                        "name": "linearActionMenu",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/linearActionMenu?serviceId=6&assetType=ltv&region=1",
+                        "triggers": ["right"],
+                        "target": "/actionmenu"
+                    }],
+                    "postActions": [{
+                        "name": "linearFullScreenTune",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/fullScreen/playtv?serviceId=6&serviceLocator=%7B6%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BOGU5MGM1MzlmOTg4ZGJjMmIzZDU%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                        "triggers": ["tap"],
+                        "method": "POST"
+                    }]
+                }
+            }, {
+                "programId": "programid://1843399393~programid://545263353",
+                "assetType": "broadcast",
+                "thumbnails": [{
+                    "size": "large",
+                    "mimeType": "image/jpeg",
+                    "uri": "file:///android_asset/debug/dummy_thumbnail_7.jpg"
+                }],
+                "title": "W1029S7E006:Name:En",
+                "startTime": 1414567800000,
+                "duration": 5400000,
+                "rating": 13,
+                "channelName": "Program_7",
+                "logicalChannelNumber": 7,
+                "channelId": "7",
+                "channelLogos": [{
+                    "size": "vect",
+                    "mimeType": "image/png",
+                    "uri": "file:///android_asset/debug/dummy_logo_7.png"
+                }],
+                "links": {
+                    "navigation": [{
+                        "name": "linearActionMenu",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/linearActionMenu?serviceId=7&assetType=ltv&region=1",
+                        "triggers": ["right"],
+                        "target": "/actionmenu"
+                    }],
+                    "postActions": [{
+                        "name": "linearFullScreenTune",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/fullScreen/playtv?serviceId=7&serviceLocator=%7B7%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BNDhjYjVmNTY1MDcwOGIzYWU0ZjQ%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                        "triggers": ["tap"],
+                        "method": "POST"
+                    }]
+                }
+            }, {
+                "programId": "programid://717226859~programid://573574680",
+                "assetType": "broadcast",
+                "thumbnails": [{
+                    "size": "large",
+                    "mimeType": "image/jpeg",
+                    "uri": "file:///android_asset/debug/dummy_thumbnail_8.jpg"
+                }],
+                "title": "W1029S8E016:Name:En",
+                "startTime": 1414567800000,
+                "duration": 1800000,
+                "rating": 13,
+                "channelName": "Program_8",
+                "logicalChannelNumber": 8,
+                "channelId": "8",
+                "channelLogos": [{
+                    "size": "vect",
+                    "mimeType": "image/png",
+                    "uri": "file:///android_asset/debug/dummy_logo_8.png"
+                }],
+                "links": {
+                    "navigation": [{
+                        "name": "linearActionMenu",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/linearActionMenu?serviceId=8&assetType=ltv&region=1",
+                        "triggers": ["right"],
+                        "target": "/actionmenu"
+                    }],
+                    "postActions": [{
+                        "name": "linearFullScreenTune",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/fullScreen/playtv?serviceId=8&serviceLocator=%7B8%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BNWE5MDFjNmQ2Y2Q3ODdiNTg2MTY%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                        "triggers": ["tap"],
+                        "method": "POST"
+                    }]
+                }
+            }, {
+                "programId": "programid://737673770~programid://694160993",
+                "assetType": "broadcast",
+                "thumbnails": [{
+                    "size": "large",
+                    "mimeType": "image/jpeg",
+                    "uri": "file:///android_asset/debug/dummy_thumbnail_9.jpg"
+                }],
+                "title": "E1029S9E003:Name:En",
+                "startTime": 1414562400000,
+                "duration": 10800000,
+                "rating": 13,
+                "channelName": "Program_9",
+                "logicalChannelNumber": 9,
+                "channelId": "9",
+                "channelLogos": [{
+                    "size": "vect",
+                    "mimeType": "image/png",
+                    "uri": "file:///android_asset/debug/dummy_logo_9.png"
+                }],
+                "links": {
+                    "navigation": [{
+                        "name": "linearActionMenu",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/linearActionMenu?serviceId=9&assetType=ltv&region=1",
+                        "triggers": ["right"],
+                        "target": "/actionmenu"
+                    }],
+                    "postActions": [{
+                        "name": "linearFullScreenTune",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/fullScreen/playtv?serviceId=9&serviceLocator=%7B9%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BNDZjY2Y3MjgxMmRlNGVhMWM3YTM%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                        "triggers": ["tap"],
+                        "method": "POST"
+                    }]
+                }
+            }, {
+                "programId": "programid://1065353695~programid://597888853",
+                "assetType": "broadcast",
+                "thumbnails": [{
+                    "size": "large",
+                    "mimeType": "image/jpeg",
+                    "uri": "file:///android_asset/debug/dummy_thumbnail_10.jpg"
+                }],
+                "title": "W1029S10E006:Name:En",
+                "startTime": 1414567800000,
+                "duration": 5400000,
+                "rating": 13,
+                "channelName": "Program_10",
+                "logicalChannelNumber": 10,
+                "channelId": "10",
+                "channelLogos": [{
+                    "size": "vect",
+                    "mimeType": "image/png",
+                    "uri": "file:///android_asset/debug/dummy_logo_10.png"
+                }],
+                "links": {
+                    "navigation": [{
+                        "name": "linearActionMenu",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/linearActionMenu?serviceId=10&assetType=ltv&region=1",
+                        "triggers": ["right"],
+                        "target": "/actionmenu"
+                    }],
+                    "postActions": [{
+                        "name": "linearFullScreenTune",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/fullScreen/playtv?serviceId=10&serviceLocator=%7B10%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BYWU4MDc3Y2QzZTk2Nzg5YmQxNTA%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                        "triggers": ["tap"],
+                        "method": "POST"
+                    }]
+                }
+            }],
+            "count": 10,
+            "firstChannelIndex": 0,
+            "links": {
+                "prefetch": [{
+                    "name": "nextChannels",
+                    "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/zaplist?serviceId=12&serviceLocator=%7B12%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BNzZmZTY0YjhmM2EwYzNkN2I3NjU%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                    "triggers": ["up"]
+                }, {
+                    "name": "prevChannels",
+                    "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/zaplist?serviceId=41&serviceLocator=%7B41%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BMWIxMDEzNTY5ODE4NGI1ZmQ0YjU%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                    "triggers": ["down"]
+                }]
+            },
+            "total": 50
+        }
+    },
+    "links": {
+        "navigation": [{
+            "name": "back",
+            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/tv?serviceId=1",
+            "triggers": ["back", "long back"],
+            "target": "/linearfullscreen"
+        }, {
+            "name": "home",
+            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/hub?",
+            "triggers": ["home"],
+            "target": "/hub"
+        }, {
+            "name": "profile",
+            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/currentprofile?",
+            "triggers": ["long home"],
+            "target": "/profile"
+        }]
+    }
+}

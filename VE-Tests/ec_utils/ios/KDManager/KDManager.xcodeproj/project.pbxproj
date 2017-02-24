@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D47AFE931BF37076000759FD /* HealthCheckNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = D47AFE921BF37076000759FD /* HealthCheckNotification.m */; };
+		DD164C891BC548AB00A65C5E /* KDManager.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = DD164C881BC548AB00A65C5E /* KDManager.entitlements */; };
+		DD93074B1D12C1EC006AC2FC /* KDManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD93074A1D12C1EC006AC2FC /* KDManagerTests.m */; };
+		DDBA1FA91BC50BA100AD32E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBA1FA81BC50BA100AD32E3 /* main.m */; };
+		DDBA1FAC1BC50BA100AD32E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBA1FAB1BC50BA100AD32E3 /* AppDelegate.m */; };
+		DDBA1FAF1BC50BA100AD32E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBA1FAE1BC50BA100AD32E3 /* ViewController.m */; };
+		DDBA1FB21BC50BA100AD32E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBA1FB01BC50BA100AD32E3 /* Main.storyboard */; };
+		DDBA1FB41BC50BA100AD32E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBA1FB31BC50BA100AD32E3 /* Assets.xcassets */; };
+		DDBA1FCC1BC517FD00AD32E3 /* AppTextFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBA1FC01BC517FD00AD32E3 /* AppTextFileResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DDBA1FCD1BC517FD00AD32E3 /* HTTPResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBA1FC21BC517FD00AD32E3 /* HTTPResponseHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DDBA1FCE1BC517FD00AD32E3 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBA1FC41BC517FD00AD32E3 /* HTTPServer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DDBA1FCF1BC517FD00AD32E3 /* JSONRPCMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBA1FC61BC517FD00AD32E3 /* JSONRPCMethods.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DDBA1FD01BC517FD00AD32E3 /* JSONRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBA1FC81BC517FD00AD32E3 /* JSONRPCRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DDBA1FD11BC517FD00AD32E3 /* JSONRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBA1FCA1BC517FD00AD32E3 /* JSONRPCResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD93074D1D12C1EC006AC2FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDBA1F9C1BC50BA100AD32E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDBA1FA31BC50BA100AD32E3;
+			remoteInfo = KDManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D47AFE911BF37076000759FD /* HealthCheckNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthCheckNotification.h; sourceTree = "<group>"; };
+		D47AFE921BF37076000759FD /* HealthCheckNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthCheckNotification.m; sourceTree = "<group>"; };
+		DD164C881BC548AB00A65C5E /* KDManager.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KDManager.entitlements; sourceTree = "<group>"; };
+		DD9307481D12C1EC006AC2FC /* KDManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD93074A1D12C1EC006AC2FC /* KDManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDManagerTests.m; sourceTree = "<group>"; };
+		DD93074C1D12C1EC006AC2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBA1FA41BC50BA100AD32E3 /* KDManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBA1FA81BC50BA100AD32E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDBA1FAA1BC50BA100AD32E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDBA1FAB1BC50BA100AD32E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDBA1FAD1BC50BA100AD32E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDBA1FAE1BC50BA100AD32E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDBA1FB11BC50BA100AD32E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDBA1FB31BC50BA100AD32E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDBA1FB81BC50BA100AD32E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBA1FBF1BC517FD00AD32E3 /* AppTextFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTextFileResponse.h; sourceTree = "<group>"; };
+		DDBA1FC01BC517FD00AD32E3 /* AppTextFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTextFileResponse.m; sourceTree = "<group>"; };
+		DDBA1FC11BC517FD00AD32E3 /* HTTPResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponseHandler.h; sourceTree = "<group>"; };
+		DDBA1FC21BC517FD00AD32E3 /* HTTPResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPResponseHandler.m; sourceTree = "<group>"; };
+		DDBA1FC31BC517FD00AD32E3 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		DDBA1FC41BC517FD00AD32E3 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		DDBA1FC51BC517FD00AD32E3 /* JSONRPCMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRPCMethods.h; sourceTree = "<group>"; };
+		DDBA1FC61BC517FD00AD32E3 /* JSONRPCMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONRPCMethods.m; sourceTree = "<group>"; };
+		DDBA1FC71BC517FD00AD32E3 /* JSONRPCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRPCRequest.h; sourceTree = "<group>"; };
+		DDBA1FC81BC517FD00AD32E3 /* JSONRPCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONRPCRequest.m; sourceTree = "<group>"; };
+		DDBA1FC91BC517FD00AD32E3 /* JSONRPCResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRPCResponse.h; sourceTree = "<group>"; };
+		DDBA1FCA1BC517FD00AD32E3 /* JSONRPCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONRPCResponse.m; sourceTree = "<group>"; };
+		DDBA1FCB1BC517FD00AD32E3 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9307451D12C1EC006AC2FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBA1FA11BC50BA100AD32E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D47AFE8E1BF36FB8000759FD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D47AFE901BF37042000759FD /* HealthCheckNotification */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D47AFE901BF37042000759FD /* HealthCheckNotification */ = {
+			isa = PBXGroup;
+			children = (
+				D47AFE911BF37076000759FD /* HealthCheckNotification.h */,
+				D47AFE921BF37076000759FD /* HealthCheckNotification.m */,
+			);
+			name = HealthCheckNotification;
+			path = Classes/HealthCheckNotification;
+			sourceTree = "<group>";
+		};
+		DD9307491D12C1EC006AC2FC /* KDManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD93074A1D12C1EC006AC2FC /* KDManagerTests.m */,
+				DD93074C1D12C1EC006AC2FC /* Info.plist */,
+			);
+			path = KDManagerTests;
+			sourceTree = "<group>";
+		};
+		DDBA1F9B1BC50BA100AD32E3 = {
+			isa = PBXGroup;
+			children = (
+				DDBA1FBE1BC517FD00AD32E3 /* HttpServer */,
+				DDBA1FA61BC50BA100AD32E3 /* KDManager */,
+				DD9307491D12C1EC006AC2FC /* KDManagerTests */,
+				DDBA1FA51BC50BA100AD32E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDBA1FA51BC50BA100AD32E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDBA1FA41BC50BA100AD32E3 /* KDManager.app */,
+				DD9307481D12C1EC006AC2FC /* KDManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDBA1FA61BC50BA100AD32E3 /* KDManager */ = {
+			isa = PBXGroup;
+			children = (
+				D47AFE8E1BF36FB8000759FD /* Classes */,
+				DD164C881BC548AB00A65C5E /* KDManager.entitlements */,
+				DDBA1FAA1BC50BA100AD32E3 /* AppDelegate.h */,
+				DDBA1FAB1BC50BA100AD32E3 /* AppDelegate.m */,
+				DDBA1FAD1BC50BA100AD32E3 /* ViewController.h */,
+				DDBA1FAE1BC50BA100AD32E3 /* ViewController.m */,
+				DDBA1FB01BC50BA100AD32E3 /* Main.storyboard */,
+				DDBA1FB31BC50BA100AD32E3 /* Assets.xcassets */,
+				DDBA1FB81BC50BA100AD32E3 /* Info.plist */,
+				DDBA1FA71BC50BA100AD32E3 /* Supporting Files */,
+			);
+			path = KDManager;
+			sourceTree = "<group>";
+		};
+		DDBA1FA71BC50BA100AD32E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDBA1FA81BC50BA100AD32E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDBA1FBE1BC517FD00AD32E3 /* HttpServer */ = {
+			isa = PBXGroup;
+			children = (
+				DDBA1FBF1BC517FD00AD32E3 /* AppTextFileResponse.h */,
+				DDBA1FC01BC517FD00AD32E3 /* AppTextFileResponse.m */,
+				DDBA1FC11BC517FD00AD32E3 /* HTTPResponseHandler.h */,
+				DDBA1FC21BC517FD00AD32E3 /* HTTPResponseHandler.m */,
+				DDBA1FC31BC517FD00AD32E3 /* HTTPServer.h */,
+				DDBA1FC41BC517FD00AD32E3 /* HTTPServer.m */,
+				DDBA1FC51BC517FD00AD32E3 /* JSONRPCMethods.h */,
+				DDBA1FC61BC517FD00AD32E3 /* JSONRPCMethods.m */,
+				DDBA1FC71BC517FD00AD32E3 /* JSONRPCRequest.h */,
+				DDBA1FC81BC517FD00AD32E3 /* JSONRPCRequest.m */,
+				DDBA1FC91BC517FD00AD32E3 /* JSONRPCResponse.h */,
+				DDBA1FCA1BC517FD00AD32E3 /* JSONRPCResponse.m */,
+				DDBA1FCB1BC517FD00AD32E3 /* SynthesizeSingleton.h */,
+			);
+			name = HttpServer;
+			path = KDManager/HttpServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9307471D12C1EC006AC2FC /* KDManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9307511D12C1EC006AC2FC /* Build configuration list for PBXNativeTarget "KDManagerTests" */;
+			buildPhases = (
+				DD9307441D12C1EC006AC2FC /* Sources */,
+				DD9307451D12C1EC006AC2FC /* Frameworks */,
+				DD9307461D12C1EC006AC2FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD93074E1D12C1EC006AC2FC /* PBXTargetDependency */,
+			);
+			name = KDManagerTests;
+			productName = KDManagerTests;
+			productReference = DD9307481D12C1EC006AC2FC /* KDManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDBA1FA31BC50BA100AD32E3 /* KDManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBA1FBB1BC50BA100AD32E3 /* Build configuration list for PBXNativeTarget "KDManager" */;
+			buildPhases = (
+				DDBA1FA01BC50BA100AD32E3 /* Sources */,
+				DDBA1FA11BC50BA100AD32E3 /* Frameworks */,
+				DDBA1FA21BC50BA100AD32E3 /* Resources */,
+				7C07AD351CC672F40030E445 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDManager;
+			productName = KDManager;
+			productReference = DDBA1FA41BC50BA100AD32E3 /* KDManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDBA1F9C1BC50BA100AD32E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Cisco;
+				TargetAttributes = {
+					DD9307471D12C1EC006AC2FC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DDBA1FA31BC50BA100AD32E3;
+					};
+					DDBA1FA31BC50BA100AD32E3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = B2K9DE64W6;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DDBA1F9F1BC50BA100AD32E3 /* Build configuration list for PBXProject "KDManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDBA1F9B1BC50BA100AD32E3;
+			productRefGroup = DDBA1FA51BC50BA100AD32E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDBA1FA31BC50BA100AD32E3 /* KDManager */,
+				DD9307471D12C1EC006AC2FC /* KDManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD9307461D12C1EC006AC2FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBA1FA21BC50BA100AD32E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBA1FB41BC50BA100AD32E3 /* Assets.xcassets in Resources */,
+				DD164C891BC548AB00A65C5E /* KDManager.entitlements in Resources */,
+				DDBA1FB21BC50BA100AD32E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C07AD351CC672F40030E445 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -rf ${TARGET_BUILD_DIR}/${TARGET_NAME}.app $SOURCE_ROOT/../../../tests/KD/iOS";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9307441D12C1EC006AC2FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD93074B1D12C1EC006AC2FC /* KDManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBA1FA01BC50BA100AD32E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBA1FCF1BC517FD00AD32E3 /* JSONRPCMethods.m in Sources */,
+				DDBA1FCE1BC517FD00AD32E3 /* HTTPServer.m in Sources */,
+				DDBA1FCD1BC517FD00AD32E3 /* HTTPResponseHandler.m in Sources */,
+				DDBA1FD01BC517FD00AD32E3 /* JSONRPCRequest.m in Sources */,
+				DDBA1FAF1BC50BA100AD32E3 /* ViewController.m in Sources */,
+				D47AFE931BF37076000759FD /* HealthCheckNotification.m in Sources */,
+				DDBA1FCC1BC517FD00AD32E3 /* AppTextFileResponse.m in Sources */,
+				DDBA1FAC1BC50BA100AD32E3 /* AppDelegate.m in Sources */,
+				DDBA1FA91BC50BA100AD32E3 /* main.m in Sources */,
+				DDBA1FD11BC517FD00AD32E3 /* JSONRPCResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD93074E1D12C1EC006AC2FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDBA1FA31BC50BA100AD32E3 /* KDManager */;
+			targetProxy = DD93074D1D12C1EC006AC2FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDBA1FB01BC50BA100AD32E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDBA1FB11BC50BA100AD32E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD93074F1D12C1EC006AC2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = KDManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.KDManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KDManager.app/KDManager";
+			};
+			name = Debug;
+		};
+		DD9307501D12C1EC006AC2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = KDManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.KDManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KDManager.app/KDManager";
+			};
+			name = Release;
+		};
+		DDBA1FB91BC50BA100AD32E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDBA1FBA1BC50BA100AD32E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDBA1FBC1BC50BA100AD32E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = KDManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.il.KDManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DDBA1FBD1BC50BA100AD32E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = KDManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.il.KDManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9307511D12C1EC006AC2FC /* Build configuration list for PBXNativeTarget "KDManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD93074F1D12C1EC006AC2FC /* Debug */,
+				DD9307501D12C1EC006AC2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBA1F9F1BC50BA100AD32E3 /* Build configuration list for PBXProject "KDManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBA1FB91BC50BA100AD32E3 /* Debug */,
+				DDBA1FBA1BC50BA100AD32E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBA1FBB1BC50BA100AD32E3 /* Build configuration list for PBXNativeTarget "KDManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBA1FBC1BC50BA100AD32E3 /* Debug */,
+				DDBA1FBD1BC50BA100AD32E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDBA1F9C1BC50BA100AD32E3 /* Project object */;
+}

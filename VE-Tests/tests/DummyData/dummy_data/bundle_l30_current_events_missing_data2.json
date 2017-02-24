@@ -1,0 +1,542 @@
+{
+  "count": 3,
+  "total": 3,
+  "channels": [
+    {
+      "schedule": {
+        "count": 9,
+        "events": [
+          {
+            "contentId": "programid://503808505",
+            "id": "programid://503808505~programid://125747479",
+            "assetType": "broadcastTv",
+			"duration": 5400000,
+            "type": "standalone",
+            "parentalRating": 13,
+			"shortSynopsis": "MISSING event data: -LCN  -Title -Thumbnail -Long Synopsis -Start Time"
+          },
+          {
+            "contentId": "programid://503808503",
+            "id": "programid://503808503~programid://125747483",
+            "assetType": "broadcastTv",
+            "title": "E0715S101E008:Name:En",
+            "startTime": 1436956200000,
+            "duration": 5400000,
+            "type": "standalone",
+            "parentalRating": 13,
+			"shortSynopsis": "Having bought a model ship, the Unicorn, for a pound off a market stall Tintin is initially puzzled that the sinister Mr. Sakharine should be so eager to buy it from him, resorting to murder and kidnapping Tintin - accompanied by his marvellous dog Snowy - to join him and his gang as they sail to Morocco on an old cargo ship.",
+            "longSynopsis": "Having bought a model ship, the Unicorn, for a pound off a market stall Tintin is initially puzzled that the sinister Mr. Sakharine should be so eager to buy it from him, resorting to murder and kidnapping Tintin - accompanied by his marvellous dog Snowy - to join him and his gang as they sail to Morocco on an old cargo ship. Sakharine has bribed the crew to revolt against the ship's master, drunken Captain Haddock, but Tintin, Snowy and Haddock escape, arriving in Morocco at the court of a sheikh, who also has a model of the Unicorn. Haddock tells Tintin that over three hundred years earlier his ancestor Sir Francis Haddock was forced to scuttle the original Unicorn when attacked by a piratical forebear of Sakharine but he managed to save his treasure and provide clues to its location in three separate scrolls, all of which were secreted in models of the Unicorn.",
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/dc4fefcf11aeed23995a5c147fac7b71.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/6f952e84c5e1ef2ee89ac27979350436.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://503808507",
+            "id": "programid://503808507~programid://125747474",
+            "assetType": "broadcastTv",
+            "title": "W0715S101E009:Name:En",
+            "startTime": 1436961600000,
+            "duration": 5400000,
+            "type": "standalone",
+            "parentalRating": 13,
+			"shortSynopsis": "Having bought a model ship, the Unicorn, for a pound off a market stall Tintin is initially puzzled that the sinister Mr. Sakharine should be so eager to buy it from him, resorting to murder and kidnapping Tintin - accompanied by his marvellous dog Snowy - to join him and his gang as they sail to Morocco on an old cargo ship.",
+            "longSynopsis": "Having bought a model ship, the Unicorn, for a pound off a market stall Tintin is initially puzzled that the sinister Mr. Sakharine should be so eager to buy it from him, resorting to murder and kidnapping Tintin - accompanied by his marvellous dog Snowy - to join him and his gang as they sail to Morocco on an old cargo ship. Sakharine has bribed the crew to revolt against the ship's master, drunken Captain Haddock, but Tintin, Snowy and Haddock escape, arriving in Morocco at the court of a sheikh, who also has a model of the Unicorn. Haddock tells Tintin that over three hundred years earlier his ancestor Sir Francis Haddock was forced to scuttle the original Unicorn when attacked by a piratical forebear of Sakharine but he managed to save his treasure and provide clues to its location in three separate scrolls, all of which were secreted in models of the Unicorn.",
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/f0cd1d1b713e1b5f09f619b47b9f9926.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/b71fe653fbe871fd93e953bd79ff0197.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://503808494",
+            "id": "programid://503808494~programid://125747475",
+            "assetType": "broadcastTv",
+            "title": "O0715S101E010:Name:En",
+            "startTime": 1436967000000,
+            "duration": 5400000,
+            "type": "standalone",
+            "parentalRating": 13,
+			"shortSynopsis": "Having bought a model ship, the Unicorn, for a pound off a market stall Tintin is initially puzzled that the sinister Mr. Sakharine should be so eager to buy it from him, resorting to murder and kidnapping Tintin - accompanied by his marvellous dog Snowy - to join him and his gang as they sail to Morocco on an old cargo ship.",
+            "longSynopsis": "Having bought a model ship, the Unicorn, for a pound off a market stall Tintin is initially puzzled that the sinister Mr. Sakharine should be so eager to buy it from him, resorting to murder and kidnapping Tintin - accompanied by his marvellous dog Snowy - to join him and his gang as they sail to Morocco on an old cargo ship. Sakharine has bribed the crew to revolt against the ship's master, drunken Captain Haddock, but Tintin, Snowy and Haddock escape, arriving in Morocco at the court of a sheikh, who also has a model of the Unicorn. Haddock tells Tintin that over three hundred years earlier his ancestor Sir Francis Haddock was forced to scuttle the original Unicorn when attacked by a piratical forebear of Sakharine but he managed to save his treasure and provide clues to its location in three separate scrolls, all of which were secreted in models of the Unicorn.",
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/6c00890bf77689d2d3b5916357dc6213.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/cfbff7f13134d988a1624ed9887d8763.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://503808498",
+            "id": "programid://503808498~programid://125747472",
+            "assetType": "broadcastTv",
+            "title": "G0715S101E011:Name:En",
+            "startTime": 1436972400000,
+            "duration": 5400000,
+            "type": "standalone",
+            "parentalRating": 13,
+			"shortSynopsis": "Having bought a model ship, the Unicorn, for a pound off a market stall Tintin is initially puzzled that the sinister Mr. Sakharine should be so eager to buy it from him, resorting to murder and kidnapping Tintin - accompanied by his marvellous dog Snowy - to join him and his gang as they sail to Morocco on an old cargo ship.",
+            "longSynopsis": "Having bought a model ship, the Unicorn, for a pound off a market stall Tintin is initially puzzled that the sinister Mr. Sakharine should be so eager to buy it from him, resorting to murder and kidnapping Tintin - accompanied by his marvellous dog Snowy - to join him and his gang as they sail to Morocco on an old cargo ship. Sakharine has bribed the crew to revolt against the ship's master, drunken Captain Haddock, but Tintin, Snowy and Haddock escape, arriving in Morocco at the court of a sheikh, who also has a model of the Unicorn. Haddock tells Tintin that over three hundred years earlier his ancestor Sir Francis Haddock was forced to scuttle the original Unicorn when attacked by a piratical forebear of Sakharine but he managed to save his treasure and provide clues to its location in three separate scrolls, all of which were secreted in models of the Unicorn.",
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/65f69f7e9be4d0cfed88e8d948f10fa7.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/ea547a7b61b3193748e57440ed547106.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://503808506",
+            "id": "programid://503808506~programid://125747477",
+            "assetType": "broadcastTv",
+            "title": "Y0715S101E012:Name:En",
+            "startTime": 1436977800000,
+            "duration": 5400000,
+            "type": "standalone",
+            "parentalRating": 13,
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/5a82ebb5a7559fd95fec6e94f3026ac3.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/bdc5f5afc5d43dfcf1db942f3be7c3a2.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://503808501",
+            "id": "programid://503808501~programid://50856315",
+            "assetType": "broadcastTv",
+            "title": "Q0715S101E013:Name:En",
+            "startTime": 1436983200000,
+            "duration": 5400000,
+            "type": "standalone",
+            "parentalRating": 13,
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/8c2cdd54c0274c73906e94862149120a.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/c09e898b82865f52e60a3c1a8ca2391d.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://1589921104",
+            "id": "programid://1589921104~programid://125747482",
+            "assetType": "broadcastTv",
+            "title": "I0715S101E014:Name:En",
+            "startTime": 1436988600000,
+            "duration": 5400000,
+            "type": "standalone",
+            "parentalRating": 13,
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/59e7066e99746ed88576b8defb01cdb4.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/41844f73fbc6928975f2390e2ffd098b.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://503808495",
+            "id": "programid://503808495~programid://125747473",
+            "assetType": "broadcastTv",
+            "title": "A0715S101E015:Name:En",
+            "startTime": 1436994000000,
+            "duration": 5400000,
+            "type": "standalone",
+            "parentalRating": 13,
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/46797e7f358b35b2b22e27c69a62d1c1.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/0702d758e167a0d15e1f9ec42254dc37.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          }
+        ]
+      },
+      "logos": [
+        {
+          "type": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/dummy_images/7151528f947d0e70731b89dd13b7e774.png"
+        }
+      ],
+      "channelName": "AETV",
+      "id": "101",
+      "isFavorite": true
+    },
+	{
+      "schedule": {
+        "count": 5,
+        "events": [
+          {
+            "contentId": "programid://1830050630",
+            "id": "programid://1830050630~programid://322091748",
+            "assetType": "broadcastTv",
+            "title": "M0715S108E004:Name:En",
+            "startTime": 1436950800000,
+            "duration": 10800000,
+            "type": "standalone",
+            "parentalRating": 13,
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/b1771489c637f5d3936c13b04e31d348.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/d95cf8bf704a4cc0bed2b702341fdba7.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://1830050627",
+            "id": "programid://1830050627~programid://322091749",
+            "assetType": "broadcastTv",
+            "title": "W0715S108E005:Name:En",
+            "startTime": 1436961600000,
+            "duration": 10800000,
+            "type": "standalone",
+            "parentalRating": 13,
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/8d8d85c43dff8ed5ff77be63d2bceef7.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/57de2f80700aa1f84ad84d0d3e6845fe.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://1830050631",
+            "id": "programid://1830050631~programid://2080374818",
+            "assetType": "broadcastTv",
+            "title": "G0715S108E006:Name:En",
+            "startTime": 1436972400000,
+            "duration": 10800000,
+            "type": "standalone",
+            "parentalRating": 13,
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/564814c1a4deb21c5186e735134adbc3.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/da3600ef0e3787709092a0807bb0c08a.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://1830050632",
+            "id": "programid://1830050632~programid://2080374819",
+            "assetType": "broadcastTv",
+            "title": "Q0715S108E007:Name:En",
+            "startTime": 1436983200000,
+            "duration": 10800000,
+            "type": "standalone",
+            "parentalRating": 13,
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/b9ffa2e63c57ad09a1fc041fd7c37b1e.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/de5c0ff186c02f8c9f88981276fb5890.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://1830050633",
+            "id": "programid://1830050633~programid://322091750",
+            "assetType": "broadcastTv",
+            "title": "A0715S108E008:Name:En",
+            "startTime": 1436994000000,
+            "duration": 10800000,
+            "type": "standalone",
+            "parentalRating": 13,
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/dc4fefcf11aeed23995a5c147fac7b71.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/6f952e84c5e1ef2ee89ac27979350436.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          }
+        ]
+      },
+      "logos": [
+        {
+          "type": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/dummy_images/c588573a0c6551db5dbdc4b69ff12f15.png"
+        }
+      ],
+      "channelName": "DSCHD",
+      "logicalChannelNumber": 8,
+      "id": "108",
+      "isFavorite": true
+    },
+    {
+      "schedule": {
+        "count": 5,
+        "events": [
+          {
+            "contentId": "programid://1436549399",
+            "id": "programid://1436549399~programid://521016790",
+            "assetType": "broadcastTv",
+            "title": "M0715S109E004:Name:En",
+            "startTime": 1436950800000,
+            "type": "standalone",
+            "parentalRating": 13,
+		    "longSynopsis": "MISSING event data:-Channel Name -Logo URI -Short Synopsis -Duration. Event valid and can be displayed without these values.",
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/b1771489c637f5d3936c13b04e31d348.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/d95cf8bf704a4cc0bed2b702341fdba7.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://1436549397",
+            "id": "programid://1436549397~programid://521016792",
+            "assetType": "broadcastTv",
+            "title": "W0715S109E005:Name:En",
+            "startTime": 1436961600000,
+            "duration": 10800000,
+            "type": "standalone",
+            "parentalRating": 13,
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/8d8d85c43dff8ed5ff77be63d2bceef7.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/57de2f80700aa1f84ad84d0d3e6845fe.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://1436549393",
+            "id": "programid://1436549393~programid://521016788",
+            "assetType": "broadcastTv",
+            "title": "G0715S109E006:Name:En",
+            "startTime": 1436972400000,
+            "duration": 10800000,
+            "type": "standalone",
+            "parentalRating": 13,
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/564814c1a4deb21c5186e735134adbc3.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/da3600ef0e3787709092a0807bb0c08a.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://1436549398",
+            "id": "programid://1436549398~programid://120592961",
+            "assetType": "broadcastTv",
+            "title": "Q0715S109E007:Name:En",
+            "startTime": 1436983200000,
+            "duration": 10800000,
+            "type": "standalone",
+            "parentalRating": 13,
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/b9ffa2e63c57ad09a1fc041fd7c37b1e.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/de5c0ff186c02f8c9f88981276fb5890.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          },
+          {
+            "contentId": "programid://1436549395",
+            "id": "programid://1436549395~programid://77659431",
+            "assetType": "broadcastTv",
+            "title": "A0715S109E008:Name:En",
+            "startTime": 1436994000000,
+            "duration": 10800000,
+            "type": "standalone",
+            "parentalRating": 13,
+            "thumbnails": [
+              {
+                "size": "small",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/dc4fefcf11aeed23995a5c147fac7b71.jpg",
+                "height": 135,
+                "width": 240
+              },
+              {
+                "size": "large",
+                "mimeType": "image/jpeg",
+                "uri": "file:///android_asset/dummy_images/6f952e84c5e1ef2ee89ac27979350436.jpg",
+                "height": 135,
+                "width": 240
+              }
+            ]
+          }
+        ]
+      },
+      "logos": [
+        {
+          "type": "vect",
+          "mimeType": "image/png"          
+        }
+      ],
+      "logicalChannelNumber": 9,
+      "id": "109",
+      "isFavorite": true
+    }
+  ]
+}

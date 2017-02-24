@@ -1,0 +1,569 @@
+{
+  "resource": "hub",
+  "embedded": {
+    "hubtv": {
+      "count": 7,
+      "firstChannelIndex": 0,
+      "total": 7,
+      "items": [{
+        "channelId": "102",
+        "logicalChannelNumber": 2,
+        "channelName": "FOODHD",
+        "channelLogos": [{
+          "size": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/debug/dummy_logo_1.png"
+        }],
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "method": "POST",
+            "target": "/device/player",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=102&sessionId={sessionId}&currentTime={currentTime}"
+          }, {
+            "triggers": [
+              "tap"
+            ],
+            "target": "/fullscreen",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=102&serviceLocator=%7B2%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BNWYzNzc1YTc3NzY5MmI5NGFhNzY%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+          }]
+        },
+        "programId": "programid://1166362775~programid://1366110874",
+        "assetType": "broadcast",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_thumbnail_1.jpg"
+        }],
+        "title": "U0217S102E018:Name:En",
+        "rating": 13,
+        "duration": 3600000,
+        "startTime": 1424192400000
+      }, {
+        "channelId": "103",
+        "logicalChannelNumber": 3,
+        "channelName": "CNBC",
+        "channelLogos": [{
+          "size": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/debug/dummy_logo_2.png"
+        }],
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "method": "POST",
+            "target": "/device/player",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=103&sessionId={sessionId}&currentTime={currentTime}"
+          }, {
+            "triggers": [
+              "tap"
+            ],
+            "target": "/fullscreen",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=103&serviceLocator=%7B3%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BOGQ5ZWE2OTMwYmU3NmU1NGVjMDU%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+          }]
+        },
+        "programId": "programid://1166362752~programid://1549402215",
+        "assetType": "broadcast",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_thumbnail_2.jpg"
+        }],
+        "title": "I0217S103E009:Name:En",
+        "rating": 13,
+        "duration": 7200000,
+        "startTime": 1424188800000
+      }, {
+        "channelId": "105",
+        "logicalChannelNumber": 5,
+        "channelName": "DXD",
+        "channelLogos": [{
+          "size": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/debug/dummy_logo_3.png"
+        }],
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "method": "POST",
+            "target": "/device/player",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=105&sessionId={sessionId}&currentTime={currentTime}"
+          }, {
+            "triggers": [
+              "tap"
+            ],
+            "target": "/fullscreen",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=105&serviceLocator=%7B5%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BOTcyZGQ3ZmZiNGQzZGRkYjg1Mjk%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+          }]
+        },
+        "programId": "programid://2145377405~programid://1390370932",
+        "assetType": "broadcast",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_thumbnail_3.jpg"
+        }],
+        "title": "U0217S105E035:Name:En",
+        "rating": 13,
+        "duration": 1800000,
+        "startTime": 1424192400000
+      }, {
+        "channelId": "106",
+        "logicalChannelNumber": 6,
+        "channelName": "HBOF",
+        "channelLogos": [{
+          "size": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/debug/dummy_logo_4.png"
+        }],
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "method": "POST",
+            "target": "/device/player",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=106&sessionId={sessionId}&currentTime={currentTime}"
+          }, {
+            "triggers": [
+              "tap"
+            ],
+            "target": "/fullscreen",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=106&serviceLocator=%7B6%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BMTM3OWQ2ZGYyMzE2MGU4YmMxNWI%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+          }]
+        },
+        "programId": "programid://34036505~programid://1362000267",
+        "assetType": "broadcast",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_thumbnail_4.jpg"
+        }],
+        "title": "I0217S106E009:Name:En",
+        "rating": 13,
+        "duration": 7200000,
+        "startTime": 1424188800000
+      }, {
+        "channelId": "107",
+        "logicalChannelNumber": 7,
+        "channelName": "ASXTV",
+        "channelLogos": [{
+          "size": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/debug/dummy_logo_5.png"
+        }],
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "method": "POST",
+            "target": "/device/player",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=107&sessionId={sessionId}&currentTime={currentTime}"
+          }, {
+            "triggers": [
+              "tap"
+            ],
+            "target": "/fullscreen",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=107&serviceLocator=%7B7%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BODdjMzNkZmRhOGFiNjgxZDcxMjM%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+          }]
+        },
+        "programId": "programid://1074167827~programid://1359650961",
+        "assetType": "broadcast",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_thumbnail_5.jpg"
+        }],
+        "title": "O0217S107E012:Name:En",
+        "rating": 13,
+        "duration": 5400000,
+        "startTime": 1424190600000
+      }, {
+        "channelId": "108",
+        "logicalChannelNumber": 8,
+        "channelName": "DSCHD",
+        "channelLogos": [{
+          "size": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/debug/dummy_logo_6.png"
+        }],
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "method": "POST",
+            "target": "/device/player",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=108&sessionId={sessionId}&currentTime={currentTime}"
+          }, {
+            "triggers": [
+              "tap"
+            ],
+            "target": "/fullscreen",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=108&serviceLocator=%7B8%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BMTA4Njg3NzUyYWY0MTkwNTliODc%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+          }]
+        },
+        "programId": "programid://462708850~programid://1369440357",
+        "assetType": "broadcast",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_thumbnail_6.jpg"
+        }],
+        "title": "W0217S108E006:Name:En",
+        "rating": 13,
+        "duration": 10800000,
+        "startTime": 1424185200000
+      }, {
+        "channelId": "109",
+        "logicalChannelNumber": 9,
+        "channelName": "HISTORY",
+        "channelLogos": [{
+          "size": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/debug/dummy_logo_7.png"
+        }],
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "method": "POST",
+            "target": "/device/player",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=109&sessionId={sessionId}&currentTime={currentTime}"
+          }, {
+            "triggers": [
+              "tap"
+            ],
+            "target": "/fullscreen",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=109&serviceLocator=%7B9%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BMTVlYWVmZTY1NzdiNTcyNjJhNGU%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+          }]
+        },
+        "programId": "programid://67108877~programid://1727449640",
+        "assetType": "broadcast",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_thumbnail_7.jpg"
+        }],
+        "title": "W0217S109E006:Name:En",
+        "rating": 13,
+        "duration": 10800000,
+        "startTime": 1424185200000
+      }],
+      "label": {
+        "title": "TELEVISION",
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/tvpage?",
+            "target": "/tvPage"
+          }]
+        }
+      }
+    },
+    "hublibrary": {
+      "count": 5,
+      "firstChannelIndex": 0,
+      "total": 5,
+      "items": [{
+        "channelId": "102",
+        "logicalChannelNumber": 2,
+        "channelName": "FOODHD",
+        "channelLogos": [{
+          "size": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/debug/dummy_logo_1.png"
+        }],
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "method": "POST",
+            "target": "/device/player",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=102&sessionId={sessionId}&currentTime={currentTime}"
+          }, {
+            "triggers": [
+              "tap"
+            ],
+            "target": "/fullscreen",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=102&serviceLocator=%7B2%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BNWYzNzc1YTc3NzY5MmI5NGFhNzY%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+          }]
+        },
+        "programId": "programid://1166362775~programid://1366110874",
+        "assetType": "broadcast",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_thumbnail_1.jpg"
+        }],
+        "title": "U0217S102E018:Name:En",
+        "rating": 13,
+        "duration": 3600000,
+        "startTime": 1424192400000
+      }, {
+        "channelId": "103",
+        "logicalChannelNumber": 3,
+        "channelName": "CNBC",
+        "channelLogos": [{
+          "size": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/debug/dummy_logo_2.png"
+        }],
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "method": "POST",
+            "target": "/device/player",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=103&sessionId={sessionId}&currentTime={currentTime}"
+          }, {
+            "triggers": [
+              "tap"
+            ],
+            "target": "/fullscreen",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=103&serviceLocator=%7B3%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BOGQ5ZWE2OTMwYmU3NmU1NGVjMDU%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+          }]
+        },
+        "programId": "programid://1166362752~programid://1549402215",
+        "assetType": "broadcast",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_thumbnail_2.jpg"
+        }],
+        "title": "I0217S103E009:Name:En",
+        "rating": 13,
+        "duration": 7200000,
+        "startTime": 1424188800000
+      }, {
+        "channelId": "105",
+        "logicalChannelNumber": 5,
+        "channelName": "DXD",
+        "channelLogos": [{
+          "size": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/debug/dummy_logo_3.png"
+        }],
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "method": "POST",
+            "target": "/device/player",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=105&sessionId={sessionId}&currentTime={currentTime}"
+          }, {
+            "triggers": [
+              "tap"
+            ],
+            "target": "/fullscreen",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=105&serviceLocator=%7B5%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BOTcyZGQ3ZmZiNGQzZGRkYjg1Mjk%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+          }]
+        },
+        "programId": "programid://2145377405~programid://1390370932",
+        "assetType": "broadcast",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_thumbnail_3.jpg"
+        }],
+        "title": "U0217S105E035:Name:En",
+        "rating": 13,
+        "duration": 1800000,
+        "startTime": 1424192400000
+      }, {
+        "channelId": "106",
+        "logicalChannelNumber": 6,
+        "channelName": "HBOF",
+        "channelLogos": [{
+          "size": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/debug/dummy_logo_4.png"
+        }],
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "method": "POST",
+            "target": "/device/player",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=106&sessionId={sessionId}&currentTime={currentTime}"
+          }, {
+            "triggers": [
+              "tap"
+            ],
+            "target": "/fullscreen",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=106&serviceLocator=%7B6%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BMTM3OWQ2ZGYyMzE2MGU4YmMxNWI%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+          }]
+        },
+        "programId": "programid://34036505~programid://1362000267",
+        "assetType": "broadcast",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_thumbnail_4.jpg"
+        }],
+        "title": "I0217S106E009:Name:En",
+        "rating": 13,
+        "duration": 7200000,
+        "startTime": 1424188800000
+      }, {
+        "channelId": "107",
+        "logicalChannelNumber": 7,
+        "channelName": "ASXTV",
+        "channelLogos": [{
+          "size": "vect",
+          "mimeType": "image/png",
+          "uri": "file:///android_asset/debug/dummy_logo_5.png"
+        }],
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "method": "POST",
+            "target": "/device/player",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=107&sessionId={sessionId}&currentTime={currentTime}"
+          }, {
+            "triggers": [
+              "tap"
+            ],
+            "target": "/fullscreen",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=107&serviceLocator=%7B7%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BODdjMzNkZmRhOGFiNjgxZDcxMjM%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+          }]
+        },
+        "programId": "programid://1074167827~programid://1359650961",
+        "assetType": "broadcast",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_thumbnail_5.jpg"
+        }],
+        "title": "O0217S107E012:Name:En",
+        "rating": 13,
+        "duration": 5400000,
+        "startTime": 1424190600000
+      }],
+      "label": {
+        "title": "LIBRARY",
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/library?",
+            "target": "/libraryMenu"
+          }]
+        }
+      }
+    },
+    "hubondemand": {
+      "totalCount": 2,
+      "count": 2,
+      "items": [{
+        "programId": "programid://1610612739~programid://1610612753",
+        "assetType": "vod",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_poster_1.jpg"
+        }],
+        "title": "Adventures Of Tintin, The",
+        "rating": 5,
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "target": "/actionmenu",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F1610612739~programid%3A%2F%2F1610612753&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+          }]
+        },
+        "duration": 6420000,
+        "durationAndGenre": "107 MIN "
+      }, {
+        "programId": "programid://0~programid://1744830482",
+        "assetType": "vod",
+        "thumbnails": [{
+          "size": "large",
+          "mimeType": "image/jpeg",
+          "uri": "file:///android_asset/debug/dummy_poster_2.jpg"
+        }],
+        "title": "Bachelorette",
+        "rating": 7,
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "target": "/actionmenu",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F0~programid%3A%2F%2F1744830482&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+          }]
+        },
+        "duration": 5220000,
+        "durationAndGenre": "87 MIN "
+      }],
+      "label": {
+        "title": "STORE",
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/storeMenu?",
+            "target": "/storemenu"
+          }]
+        }
+      }
+    },
+    "mainMenu": {
+      "items": [{
+        "title": "SETTINGS",
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/settingsMenu?",
+            "target": "/settings"
+          }]
+        }
+      }]
+    },
+    "statusBar": {
+      "items": [{
+        "title": "SEARCH",
+        "links": {
+          "actions": [{
+            "triggers": [
+              "tap"
+            ],
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/search?",
+            "target": "/search"
+          }]
+        }
+      }],
+      "pageActions": {
+        "actions": [{
+          "triggers": [
+            "home"
+          ],
+          "target": "/hub",
+          "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/hub?"
+        }]
+      }
+    }
+  }
+}

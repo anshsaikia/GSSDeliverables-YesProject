@@ -1,0 +1,213 @@
+{
+  "ERR_PLAYBACK_BAD_PARAMS": {
+    "httpErrorCode": "400",
+    "response": {
+      "id": "BAD_REQUEST",
+      "errors":"A problem occurred during playback, please try later.",
+      "displayMessage": "A problem occurred during playback, please try later.",
+      "data": {
+        "timeLeft": 36000
+      }
+    }
+  },
+   "ERR_PLAYBACK_INTERNAL_SERVER": {
+    "httpErrorCode": "500",
+    "response": {
+      "id": "INTERNAL_ERROR",
+      "errors": "A problem occurred during playback, please try later.",
+      "displayMessage": "A problem occurred during playback, please try later.",
+      "data": {
+        "timeLeft": 36000
+      }
+    }
+  },
+  "ERR_PLAYBACK_CONCURRENCY": {
+    "httpErrorCode": "403",
+    "response": {
+      "id": "CONCURENCY_LIMIT_EXCEEDED",
+      "errors":"You have exceeded the maximum number of simultaneous video streams for your household",
+      "displayMessage": "You have exceeded the maximum number of simultaneous video streams for your household",
+      "data": {
+        "timeLeft": 36000
+      }
+    }
+  },
+  "DIC_ERROR_PLAYBACK_GEO_LOCATION": {
+    "httpErrorCode": "403",
+    "response": {
+      "id": "GEO_LOCATION_ERROR",
+      "errors": "Your geographic location does not allow you to view the content",
+      "displayMessage": "Your geographic location does not allow you to view the content",
+      "data": {
+        "timeLeft": 36000
+      }
+    }
+  },
+  "DIC_ERROR_PLAYBACK_NETWORK_TYPE": {
+    "httpErrorCode": "403",
+    "response": {
+      "id": "NETWORK_TYPE_ERROR",
+      "errors":"For viewing this content you must be connected via a wifi connection",
+      "displayMessage": "For viewing this content you must be connected via a wifi connection",
+      "data": {
+        "timeLeft": 36000
+      }
+    }
+  },
+  "DIC_ERROR_PLAYBACK_OFF_NETWORK": {
+    "httpErrorCode": "403",
+    "response": {
+      "id": "OFF_NETWORK_ERROR",
+      "errors":"For viewing this content you must be connected via the vodafone network",
+      "displayMessage": "For viewing this content you must be connected via the vodafone network",
+      "data": {
+        "timeLeft": 36000
+      }
+    }
+  },
+  "DIC_ERROR_PLAYBACK_BLACKLISTED": {
+    "httpErrorCode": "403",
+    "response": {
+      "id": "HOT_SPOT_ERROR",
+      "errors":"You are not allowed to view this content via public Hot spot.",
+      "displayMessage": "You are not allowed to view this content via public Hot spot.",
+      "data": {
+        "timeLeft": 36000
+      }
+    }
+  },
+  "DIC_ERROR_PLAYBACK_PROXY_VPN": {
+    "httpErrorCode": "403",
+    "response": {
+      "id": "PROXY_OR_VPN_ERROR",
+      "errors":"You may not play back this content by using a Proxy or VPN connection.",
+      "displayMessage": "It is not possible to play this content via a proxy or a vpn connection",
+      "data": {
+        "timeLeft": 36000
+      }
+    }
+  },
+  "ERR_PLAYBACK_NOT_ENTITLED": {
+    "httpErrorCode": "403",
+    "response": {
+       "errorResponse": {
+         "id": "NOT_ENTITLED",
+         "errors": "You are not subscribed to this channel, call customer care to subscribe .",
+         "displayMessage": "You are not subscribed to this channel, call customer care to subscribe .",
+         "data": {
+           "timeLeft": 36000
+         }
+       }
+    }
+  },
+  "DIC_ERROR_PLAYBACK_DEVICE_NOT_FOUND": {
+    "httpErrorCode": "404",
+    "response": {
+      "id": "DEVICE_NOT_FOUND",
+      "errors":"Device was not found",
+      "displayMessage": "Device was not found",
+      "data": {
+        "timeLeft": 36000
+      }
+    }
+  },
+  "DIC_ERROR_PLAYBACK_CONTENT_NOT_FOUND": {
+    "httpErrorCode": "500",
+    "response": {
+      "id": "CONTENT_NOT_FOUND",
+      "errors":"This content is no longer available",
+      "displayMessage": "This content is no longer available",
+      "data": {
+        "timeLeft": 36000
+      }
+    }
+  },
+   "ERR_PLAYBACK_CONTENT_NOT_PLAYABLE": {
+    "httpErrorCode": "500",
+    "response": {
+      "id": "CONTENT_NOT_PLAYABLE",
+      "errors":"This channel is not playable on your device",
+      "displayMessage": "This channel is not playable on your device",
+      "data": {
+        "timeLeft": 36000
+      }
+    }
+  },
+  "ERR_SM_KEEPALIVE_LCS_NOT_AVAILABLE":{
+    "httpErrorCode":"500",
+    "response":{
+      "errorResponse": {
+        "errorCode": "2000",
+        "errorText": "Playback error, please try again later."
+      }
+    }
+  },
+  "ERR_SM_KEEPALIVE_BAD_PARAMS":{
+    "httpErrorCode":"400",
+    "response":{
+      "errorResponse": {
+        "errorCode": "400",
+        "errorText": "A problem occurred during playback, please try later."
+      }
+    }
+  },
+  "ERR_SM_KEEPALIVE_GEO_RESTRICTION":{
+    "httpErrorCode":"500",
+    "response":{
+      "errorResponse":{
+      "errorCode": "602",
+      "errorText": "Your geographic location does not allow you to view the content"
+      }
+    }
+  },
+  "ERR_SM_KEEPALIVE_NETWORK_TYPE":{
+    "httpErrorCode":"500",
+    "response":{
+      "errorResponse": {
+        "errorCode": "3003",
+        "errorText": "For viewing this content you must be connected via a wifi connection"
+      }
+    }
+  },
+  "ERR_SM_KEEPALIVE_OFFNET":{
+    "httpErrorCode":"500",
+    "response":{
+      "errorResponse": {
+        "errorCode": "3001",
+        "errorText": "For viewing this content you must be connected via the vodafone network"
+      }
+    }
+  },
+  "ERR_SM_KEEPALIVE_BLACKLIST":{
+    "httpErrorCode":"500",
+    "response":{
+      "errorResponse": {
+        "errorCode": "3002",
+        "errorText": "You are not allowed to view this content via public Hot spot."
+      }
+      }
+  },
+  "ERR_SM_KEEPALIVE_ANONYMOUS_IP":{
+    "httpErrorCode":"500",
+    "response":{
+      "errorResponse": {
+        "errorCode": "601",
+        "errorText": "It is not possible to play this content via a proxy or a vpn connection"
+      }
+    }
+  },
+  "ERR_SM_KEEPALIVE_GENERIC_ERROR":{
+    "httpErrorCode":"404",
+	"response":{
+      "errorResponse":{
+      "errorCode": "404",
+      "errorText": "A problem occurred during playback, please try later."
+      }
+    }
+  },
+  "ERR_VERSION_NO_NETWORK_ERROR":{
+    "httpErrorCode":"400",
+   "response":"Unable verify your app version, please check your network connection and try again later"
+  }
+}
+

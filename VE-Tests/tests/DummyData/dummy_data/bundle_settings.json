@@ -1,0 +1,296 @@
+{
+    "resource": "settingsMenu",
+    "embedded": {
+        "settingsMenu": {
+            "items": [{
+                "title": "SUBTITLES",
+                "items": [{
+                    "title": "English",
+                    "selected": false,
+                    "centered": false,
+                    "links": {
+                        "navigation": [
+
+                        ],
+                        "postActions": [{
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=subtitleLanguage&value=eng",
+                            "target": "/settingsmenu/embedded/subtitles",
+                            "triggers": [
+                                "tap"
+                            ]
+                        }]
+                    }
+                }, {
+                    "title": "French",
+                    "selected": true,
+                    "centered": true
+                }, {
+                    "title": "German",
+                    "selected": false,
+                    "centered": false,
+                    "links": {
+                        "navigation": [
+
+                        ],
+                        "postActions": [{
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=subtitleLanguage&value=ger",
+                            "target": "/settingsmenu/embedded/subtitles",
+                            "triggers": [
+                                "tap"
+                            ]
+                        }]
+                    }
+                }]
+            }, {
+                "title": "APPLICATION LANGUAGE",
+                "items": [{
+                    "title": "English",
+                    "selected": false,
+                    "centered": false,
+                    "links": {
+                        "navigation": [
+
+                        ],
+                        "postActions": [{
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=uiLanguage&value=eng",
+                            "target": "/settingsmenu/embedded/application language",
+                            "triggers": [
+                                "tap"
+                            ]
+                        }]
+                    }
+                }, {
+                    "title": "French",
+                    "selected": false,
+                    "centered": false,
+                    "links": {
+                        "navigation": [
+
+                        ],
+                        "postActions": [{
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=uiLanguage&value=fre",
+                            "target": "/settingsmenu/embedded/application language",
+                            "triggers": [
+                                "tap"
+                            ]
+                        }]
+                    }
+                }, {
+                    "title": "German",
+                    "selected": true,
+                    "centered": true
+                }]
+            }, {
+                "title": "SHOW SUBTITLES",
+                "items": [{
+                    "title": "Yes",
+                    "selected": true,
+                    "centered": true
+                }, {
+                    "title": "No",
+                    "selected": false,
+                    "centered": false,
+                    "links": {
+                        "navigation": [
+
+                        ],
+                        "postActions": [{
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=showSubtitles&value=false",
+                            "target": "/settingsmenu/embedded/show subtitles",
+                            "triggers": [
+                                "tap"
+                            ]
+                        }]
+                    }
+                }]
+            }, {
+                "title": "PARENTAL RATING THRESHOLD",
+                "items": [{
+                    "title": "1",
+                    "selected": false,
+                    "centered": false,
+                    "links": {
+                        "navigation": [
+
+                        ],
+                        "postActions": [{
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=parentalRatingThreshold&value=1",
+                            "target": "/settingsmenu/embedded/parental rating threshold",
+                            "triggers": [
+                                "tap"
+                            ]
+                        }]
+                    }
+                }, {
+                    "title": "2",
+                    "selected": false,
+                    "centered": false,
+                    "links": {
+                        "navigation": [
+
+                        ],
+                        "postActions": [{
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=parentalRatingThreshold&value=2",
+                            "target": "/settingsmenu/embedded/parental rating threshold",
+                            "triggers": [
+                                "tap"
+                            ]
+                        }]
+                    }
+                }, {
+                    "title": "3",
+                    "selected": false,
+                    "centered": false,
+                    "links": {
+                        "navigation": [
+
+                        ],
+                        "postActions": [{
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=parentalRatingThreshold&value=3",
+                            "target": "/settingsmenu/embedded/parental rating threshold",
+                            "triggers": [
+                                "tap"
+                            ]
+                        }]
+                    }
+                }, {
+                    "title": "4",
+                    "selected": false,
+                    "centered": false,
+                    "links": {
+                        "navigation": [
+
+                        ],
+                        "postActions": [{
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=parentalRatingThreshold&value=4",
+                            "target": "/settingsmenu/embedded/parental rating threshold",
+                            "triggers": [
+                                "tap"
+                            ]
+                        }]
+                    }
+                }, {
+                    "title": "5",
+                    "selected": false,
+                    "centered": false,
+                    "links": {
+                        "navigation": [
+
+                        ],
+                        "postActions": [{
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=parentalRatingThreshold&value=5",
+                            "target": "/settingsmenu/embedded/parental rating threshold",
+                            "triggers": [
+                                "tap"
+                            ]
+                        }]
+                    }
+                }]
+            }, {
+                "title": "CLOCK FORMAT",
+                "items": [{
+                    "title": "24",
+                    "selected": true,
+                    "centered": true
+                }, {
+                    "title": "12",
+                    "selected": false,
+                    "centered": false,
+                    "links": {
+                        "navigation": [
+
+                        ],
+                        "postActions": [{
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=clockFormat&value=12",
+                            "target": "/settingsmenu/embedded/clock format",
+                            "triggers": [
+                                "tap"
+                            ]
+                        }]
+                    }
+                }]
+            }, {
+                "title": "AUDIO LANGUAGE",
+                "items": [{
+                    "title": "English",
+                    "selected": true,
+                    "centered": true
+                }, {
+                    "title": "French",
+                    "selected": false,
+                    "centered": false,
+                    "links": {
+                        "navigation": [
+
+                        ],
+                        "postActions": [{
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=audioLanguage&value=fre",
+                            "target": "/settingsmenu/embedded/audio language",
+                            "triggers": [
+                                "tap"
+                            ]
+                        }]
+                    }
+                }, {
+                    "title": "German",
+                    "selected": false,
+                    "centered": false,
+                    "links": {
+                        "navigation": [
+
+                        ],
+                        "postActions": [{
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=audioLanguage&value=ger",
+                            "target": "/settingsmenu/embedded/audio language",
+                            "triggers": [
+                                "tap"
+                            ]
+                        }]
+                    }
+                }]
+            }, {
+                "title": "PIN CODE",
+                "edit_text": {
+                    "traits": [
+                        "numeric",
+                        "mangle"
+                    ],
+                    "max_length": 4,
+                    "hint": " ",
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "enter",
+                                "length"
+                            ],
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/personalization/setUserProfilePreference?key=pincode&value={pinCode}",
+                            "target": "/settingsmenu/embedded/pincode",
+                            "method": "POST"
+                        }]
+                    }
+                }
+            }]
+        }
+    },
+    "links": {
+        "actions": [{
+            "triggers": [
+                "home"
+            ],
+            "target": "/hub",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/hub?"
+        }, {
+            "triggers": [
+                "long home"
+            ],
+            "target": "/profile",
+            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/currentprofile?"
+        }, {
+            "event": [
+                "back",
+                "long back"
+            ],
+            "target": "/hub/http%3A%2F%2Flocalhost%3A8000%2Fsf14%2Ftenant%2Fmobile%2F14.0.1%2Fhub%3FisBack%3Dtrue"
+        }]
+    }
+}

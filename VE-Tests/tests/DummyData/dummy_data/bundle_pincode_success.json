@@ -1,0 +1,16 @@
+{
+  "pinScreen": {
+    "links": {
+	    "actions": [{
+	      "event": ["immediate"],
+	      "target": "/fullScreen",
+	      "href": "http://10.57.36.20:8100/sf14/cva/stb/14.0.1/fullScreen?params"
+	    }, {
+	      "event": ["immediate"],
+	      "target": "/device/player",
+	      "href": "http://10.57.36.20:8100/sf14/cva/stb/14.0.1/fullScreen/playVod?params",
+	      "method": "POST"
+	    }]
+	 }
+  }
+}

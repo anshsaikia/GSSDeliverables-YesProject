@@ -1,0 +1,10 @@
+{
+  "pinScreen": {
+    "message": "PINCODE VERIFICATION FAILED, PINCODE ENTRY BLOCKED.",
+    "timer": {
+      "type": "countdown",
+      "initial_value": 900,
+      "units": "sec"
+    }
+  }
+}

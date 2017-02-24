@@ -1,0 +1,176 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# Required software before running vagrant:
+# 1) VirtualBox for your OS, and Extention Pack, checked with 5.0.0.
+# 2) vagrant for your OS, checked with 1.7.4
+
+#----------------------- Uploading ----------------------
+# Uploading vagrant box to artifactory:
+# 1) Package running environment with Vagrantfile into box.
+#   Example: vagrant package --vagrantfile Vagrantfile --output ub_android_v01.box
+# 2) Publish vagrant box
+# manual command for publishing (take ~5 minutes):
+#   VAGRANT_BOX_LOCAL=/Users/dk/david/cisco/VEoP/new-android/VE-Tests/VE_android_ub_v01.box
+#   BOX_NAME="VE_android_ub_v01.box"
+#   ARTIFACTORY_PATH="http://engci-maven-master.cisco.com/artifactory/spvss-vci-service-release-repo/VEoP/vms/vagrant"
+#   ARTIFACTORY_USERNAME="spvss-vci-service-deployer"
+#   ARTIFACTORY_PASSWORD="spvss-vci-service-deployer"
+#   curl -v --user ${ARTIFACTORY_USERNAME}:${ARTIFACTORY_PASSWORD} --data-binary @${VAGRANT_BOX_LOCAL} -X PUT ${ARTIFACTORY_PATH}/${BOX_NAME}
+
+#------------------------- Globals --------------------
+# Globals:
+#Vagrant.require_version ">= 1.7.4"
+
+# helper to decide if we are on windows
+require 'ffi'
+is_windows = FFI::Platform::IS_WINDOWS ? false : true
+
+#------------------------ Configuration ---------------------
+
+Vagrant.configure(2) do |config|
+  # The most common configuration options are documented and commented below.
+  # For a complete reference, please see the online documentation at https://docs.vagrantup.com.
+
+  # Base box. You can search for boxes at https://atlas.hashicorp.com/search.
+  config.vm.box = "ubuntu/trusty64"
+
+  # Disable automatic box update checking. If you disable this, then
+  # boxes will only be checked for updates when the user runs
+  # `vagrant box outdated`. This is not recommended.
+  # config.vm.box_check_update = false
+
+  # hostname, what you see when ssh to the VM
+  config.vm.hostname = "ve-tests"
+
+  # Create a forwarded port mapping which allows access to a specific port
+  # within the machine from a port on the host machine.
+  config.vm.network "forwarded_port", guest: 4444, host: 4444
+
+  # Create a private network, which allows host-only access to the machine
+  # using a specific IP.
+  # config.vm.network "private_network", ip: "192.168.33.10"
+
+  # Create a public network, which generally matched to bridged network.
+  # Bridged networks make the machine appear as another physical device on
+  # your network.
+  config.vm.network "public_network"
+  #  config.vm.network "public_network", bridge: "en1: Wi-Fi (AirPort)"
+
+  # Share an additional folder to the guest VM. The first argument is
+  # the path on the host to the actual folder. The second argument is
+  # the path on the guest to mount the folder. And the optional third
+  # argument is a set of non-required options.
+  # config.vm.synced_folder "../data", "/vagrant_data"
+
+  config.vm.post_up_message = "Congratulation! Your VM is ready.
+  Now you can login by 'vagrant ssh'"
+
+  #-------------------------- VirtualBox provider -------------------
+  # Provider-specific configuration so you can fine-tune various
+  # backing providers for Vagrant. These expose provider-specific options.
+  config.vm.provider "virtualbox" do |vb|
+    # Display the VirtualBox GUI when booting the machine
+    #   vb.gui = true
+
+      #virtual machine name, as you see in VirtualBox Manager
+      vb.name = "ve-tests"
+
+      # Amount of memory on the VM, in MB:
+      vb.memory = "2048"
+      # Customize the number of CPUs on the VM:
+      vb.cpus = "2"
+      # Enable the VM to see the USB ports    
+      vb.customize ['modifyvm', :id, '--usb', 'on']
+      # Add the Google vendor id. We may need to add more
+      vb.customize ['usbfilter', 'add', '0', '--target', :id, '--name', 'android', '--vendorid', '0x18d1']
+      # Samsung
+      vb.customize ['usbfilter', 'add', '0', '--target', :id, '--name', 'samsung_android', '--vendorid', '0x04e8']
+  end
+  #--------------------------- Root shell ------------------
+
+  # Enable provisioning with a shell script. Additional provisioners such as
+  # Puppet, Chef, Ansible, Salt, and Docker are also available.
+  config.vm.provision "shell", inline: <<-SHELL
+       dpkg --add-architecture i386
+    apt-get -y -q update
+    apt-get -y -q upgrade
+
+    #install git
+    apt-get -y -q install git
+
+    apt-get install -y -q libncurses5:i386 libstdc++6:i386 zlib1g:i386
+    apt-get -y -q install python-dev python-pip
+    pip install --upgrade pip
+
+    #install Oracle Java 7 and 8:
+    apt-get -y -q install software-properties-common htop
+    apt-add-repository ppa:webupd8team/java
+    apt-get -y -q update
+    echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
+    echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
+    apt-get -y -q install oracle-java7-installer
+    apt-get -y -q install oracle-java8-installer
+    update-java-alternatives -s java-8-oracle
+
+    # Define the Android SDK, Build tools and API versions to install
+    ANDROID_SDK_VERSION=24.3.3
+    ANDROID_BUILD_TOOLS_VERSION=22.0.1
+    ANDROID_API_LEVELS=android-19,android-20,android-21,android-22
+
+    ANDROID_SDK_FILENAME=android-sdk_r${ANDROID_SDK_VERSION}-linux.tgz
+    ANDROID_SDK_URL=http://dl.google.com/android/${ANDROID_SDK_FILENAME}
+    ANDROID_HOME=/opt/android-sdk-linux
+
+    # --------------------------- Android ------------------
+    # apt-get install -y android-tools-adb
+    # Add most Android manufacturers ids to udev. We store this file in the repository VE-Tests/vms
+    # Example command: wget -O /etc/udev/rules.d/51-android.rules https://raw.githubusercontent.com/NicolasBernaerts/ubuntu-scripts/master/android/51-android.rules
+    cp /vagrant/vms/51-android.rules /etc/udev/rules.d
+    chmod a+r /etc/udev/rules.d/51-android.rules
+    service udev restart
+    cd /opt
+    wget -q ${ANDROID_SDK_URL}
+    tar -xf ${ANDROID_SDK_FILENAME}
+    rm ${ANDROID_SDK_FILENAME}
+    # Install more of the SDK - build tools, adb etc..
+    cd android-sdk-linux/tools
+    echo "y" | ./android update sdk --no-ui -a --filter tools,platform-tools,${ANDROID_API_LEVELS},build-tools-${ANDROID_BUILD_TOOLS_VERSION}
+
+    # --------------------------- Electric Commander agent ------------------
+    cd /home/vagrant
+    wget -q http://ginosar.il.nds.com:8080/rpms/ElectricCommander-4.2.5.74531
+    chmod a+x ./ElectricCommander-*
+    ./ElectricCommander-* --mode silent --installAgent --remoteServer spvss-ec.cisco.com \
+    --unixAgentGroup vagrant --unixAgentUser vagrant
+
+  SHELL
+
+  #------------------------------ Unprivileged shell ---------------
+
+  # We need to install npm and Appium as a non-root user.
+  config.vm.provision "shell", privileged: false, inline: <<-UNPRIVILEGED_SHELL
+    # Define the Node version to install
+    NODE_VERSION=0.12.6
+
+    NODE_FILENAME=node-v${NODE_VERSION}-linux-x64.tar.gz
+    NODE_URL=https://nodejs.org/dist/v${NODE_VERSION}/${NODE_FILENAME}
+    NODE_DIR=node-v${NODE_VERSION}-linux-x64
+
+    cd /home/vagrant
+    wget -q ${NODE_URL}
+    tar -xf ${NODE_FILENAME}
+    rm ${NODE_FILENAME}
+    mv ${NODE_DIR} node
+    echo "export PATH=$PATH:/home/vagrant/node/bin:/opt/android-sdk-linux/platform-tools" >> /home/vagrant/.bashrc
+    export PATH=$PATH:/home/vagrant/node/bin
+    /home/vagrant/node/bin/npm install -g appium
+    cd /vagrant
+    sudo pip install -r requirements.txt
+    echo "export PYTHONPATH=$PYTHONPATH:/vagrant" >> /home/vagrant/.bashrc
+    echo "export ANDROID_HOME=/opt/android-sdk-linux" >> /home/vagrant/.bashrc
+    echo "cd /vagrant" >> /home/vagrant/.bashrc
+    cp /vagrant/ec_utils/android/appium.ini /vagrant/tests
+  UNPRIVILEGED_SHELL
+end
+

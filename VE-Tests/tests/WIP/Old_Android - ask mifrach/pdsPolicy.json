@@ -1,0 +1,17 @@
+[
+  {
+    "definition": {
+      "AND-1": {
+        "LE-1": [
+          "Netflix",
+          "1"
+        ]
+      }
+    },
+    "contentType": "SUBSCRIPTION",
+    "deviceCategory": "UNMANAGED",
+    "contentRef": "aa",
+    "providerId": "Netflix",
+    "videoFormat": "hd"
+  }
+]

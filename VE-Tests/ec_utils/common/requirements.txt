@@ -1,0 +1,3 @@
+# for create_households.py
+requests
+termcolor

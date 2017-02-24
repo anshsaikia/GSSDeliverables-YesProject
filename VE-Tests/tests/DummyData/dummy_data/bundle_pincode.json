@@ -1,0 +1,31 @@
+{
+  "resource": "pinCodeScreen",
+  "embedded": {
+    "pinScreen": {
+      "title": "PLEASE ENTER YOUR PARENTAL PINCODE",
+      "edit_text": {
+        "traits": ["numeric", "mangle"],
+        "max_length": 4,
+        "hint": "",
+        "links": {
+          "actions": [{
+            "href": "http://host:port/sf14/tenant/mobile/14.0.1/pin/checkVod?contentId=programid%3A%2F%2F536870914~programid%3A%2F%2F1073741845&catalogueId=1000&playFrom=0&pinCode={pinCode}&retryCounter=1",
+            "target": "/pinScreen/embedded",
+            "triggers": ["enter", "length"]
+            }
+          ]
+        }
+      }
+    },
+    "links": {
+      "actions": [{
+        "event": ["home"],
+        "target": "/hub",
+        "href": "http://10.57.36.20:8100/sf14/cva/stb/14.0.1/hub?"
+      }, {
+        "event": ["back"],
+        "target": "/back"
+      }]
+    }
+  }
+}

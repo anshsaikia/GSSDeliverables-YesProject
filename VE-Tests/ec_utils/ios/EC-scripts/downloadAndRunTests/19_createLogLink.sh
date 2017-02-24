@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+ectool setProperty "/myParent/report-urls/($(ectool getProperty "/myJobStep/stepName")) Logs" --value "http://ginosar.il.nds.com:8080/artifacts/get/?artifact=iOS:logs:$(ectool getProperty "/myParent/jobId")"

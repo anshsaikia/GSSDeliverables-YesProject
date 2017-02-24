@@ -1,0 +1,37 @@
+{
+    "userPreferences": {
+        "preferences": {
+            "audioLanguage": "eng",
+            "subtitleLanguage": "eng",
+            "subtitlesPresentationFlag": true
+        }
+    },
+    "PRMSession": {
+        "session": {
+            "smSessionId": "abr-32bdc66f21ff49ea8658c1891fb8ebfb",
+            "playbackURL": "http://10.57.32.100/live/AETV/latest.m3u8",
+            "keepAliveRate": 300,
+            "drmType": "none",
+            "sessionKeepAliveURL": "http://veop-prm-sm.veop.phoenix.cisco.com:8080/sm/streamingSession/abr-32bdc66f21ff49ea8658c1891fb8ebfb/keepAlive",
+            "contentType": "LINEAR"
+        },
+        "playFrom": "0"
+    },
+    "trickModes": {
+        "pauseTimeout": 0,
+        "links": {
+            "actions": [],
+            "navigation": []
+        },
+        "items": [{
+            "id": "BUTTON_RECORD"
+        }, {
+            "id": "BUTTON_PLAY_PAUSE"
+        }, {
+            "id": "SCRUB_BAR",
+            "contentType": "LINEAR"
+        }, {
+            "id": "BUTTON_RESIZE"
+        }]
+    }
+}

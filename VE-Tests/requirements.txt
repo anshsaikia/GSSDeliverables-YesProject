@@ -1,0 +1,25 @@
+-i http://engci-maven-master.cisco.com/artifactory/api/pypi/SPVSS-IH-PYPI-group/simple
+configparser
+Appium-Python-Client
+selenium==2.46.0
+bunch
+py
+six
+pytest
+pytz
+python-dateutil
+python-jsonrpc
+requests
+setuptools==33.1.1
+web.py
+enum
+enum34
+suds==0.4
+pytest-repeat
+termcolor
+ipython
+retrying
+pycrypto
+lazy
+#-e git+https://bitbucket-eng-rtp1.cisco.com/bitbucket/scm/campnou/iex_client.git#egg=iex_client
+#-e git+https://bitbucket-eng-rtp1.cisco.com/bitbucket/scm/ihdev/vgw_test_utils.git@#egg=vgw_test_utils

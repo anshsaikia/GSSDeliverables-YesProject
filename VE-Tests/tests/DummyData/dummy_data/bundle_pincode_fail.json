@@ -1,0 +1,19 @@
+{
+  "pinScreen": {
+    "title": "PLEASE ENTER YOUR PARENTAL PINCODE",
+    "message": "PINCODE VERIFICATION FAILED",
+    "edit_text": {
+      "traits": ["numeric", "mangle"],
+      "max_length": 4,
+      "hint": "",
+      "links": {
+        "actions": [{
+          "href": "http://host:port/sf14/tenant/mobile/14.0.1/pin/checkVod?contentId=programid%3A%2F%2F536870914~programid%3A%2F%2F1073741845&catalogueId=1000&playFrom=0&pinCode={pinCode}&retryCounter=2",
+          "target": "/pinScreen/embedded",
+          "triggers": ["enter", "length"]
+          }
+        ]
+      }
+    }
+  }
+}

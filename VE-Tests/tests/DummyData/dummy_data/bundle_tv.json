@@ -1,0 +1,76 @@
+{
+    "resource": "tv",
+    "embedded": {
+        "channelList": {
+            "items": [{
+                "programId": "programid://738198120~programid://572526087",
+                "assetType": "broadcast",
+                "thumbnails": [{
+                    "size": "large",
+                    "mimeType": "image/jpeg",
+                    "uri": "file:///android_asset/debug/dummy_thumbnail_1.jpg"
+                }],
+                "title": "S1C1D2910:Name:En",
+                "startTime": 1414567800000,
+                "duration": 5400000,
+                "rating": 13,
+                "channelId": "1",
+                "channelName": "Program_1",
+                "source": {},
+                "logicalChannelNumber": 1,
+                "links": {
+                    "navigation": [{
+                        "name": "actionMenu",
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/fullScreenActionMenu?serviceId=1&assetType=ltv&region=1",
+                        "triggers": ["tap"],
+                        "target": "/actionmenu"
+                    }]
+                }
+            }],
+            "count": 1,
+            "firstChannelIndex": 0,
+            "links": {
+                "postActions": [{
+                    "name": "zap up",
+                    "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/fullScreen/playtv?serviceId=2&serviceLocator=%7B2%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BODViN2I5NTc2MWFiY2RhNTVjNWQ%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                    "triggers": ["up"],
+                    "method": "POST"
+                }, {
+                    "name": "zap down",
+                    "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/fullScreen/playtv?serviceId=50&serviceLocator=%7B50%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BYjA2YTA3OWY4OThhNjI5ZDY2NDM%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D&region=1",
+                    "triggers": ["down"],
+                    "method": "POST"
+                }]
+            },
+            "total": 50
+        }
+    },
+    "links": {
+        "navigation": [{
+            "name": "back",
+            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/tv?serviceId=1",
+            "triggers": ["back", "long back"],
+            "target": "/linearfullscreen"
+        }, {
+            "name": "zaplist",
+            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/zaplist?serviceId=1",
+            "triggers": ["long up", "long down"],
+            "target": "/zaplist"
+        }, {
+            "name": "timeline",
+            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/timeline?serviceId=1",
+            "triggers": ["right", "left"],
+            "target": "/timeline"
+        }, {
+            "name": "home",
+            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/hub?",
+            "triggers": ["home"],
+            "target": "/hub"
+        }, {
+            "name": "profile",
+            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/currentprofile?",
+            "triggers": ["long home"],
+            "target": "/profile"
+        }]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "userPreferences": {
+        "preferences": {
+            "audioLanguage": "eng",
+            "subtitleLanguage": "eng",
+            "subtitlesPresentationFlag": true
+        }
+    },
+    "PRMSession": {
+        "session": {
+            "smSessionId": "abr-cb43689c4f854e9892254058b5c5e690",
+            "playbackURL": "http://10.57.36.6/Clear/wink_export_2audio_Eng_WithIframes/Master_wink_export_2audio_Eng_WithIframes.m3u8",
+            "keepAliveRate": 300,
+            "drmType": "none",
+            "sessionKeepAliveURL": "http://veop-prm-sm.veop.phoenix.cisco.com:8080/sm/streamingSession/abr-cb43689c4f854e9892254058b5c5e690/keepAlive",
+            "contentType": "VOD"
+        },
+        "playFrom": "0"
+    },
+    "trickModes": {
+        "pauseTimeout": 300,
+        "links": {
+            "actions": [{
+                "triggers": [
+                    "player://stop",
+                    "player://eof",
+                    "pauseTimeoutExpired"
+                ],
+                "href": "http://10.57.36.20:8100/sf14/cva/mobile/14.0.1/fullScreen/stopPlay?catalogueId=1000&currentTime={currentTime}&sessionId={sessionId}",
+                "method": "POST",
+                "target": "/player"
+            }],
+            "navigation": []
+        },
+        "items": [{
+            "id": "BUTTON_STOP"
+        }, {
+            "id": "BUTTON_PLAY_PAUSE"
+        }, {
+            "id": "SCRUB_BAR",
+            "contentType": "VOD"
+        }, {
+            "id": "BUTTON_RESIZE"
+        }]
+    }
+}

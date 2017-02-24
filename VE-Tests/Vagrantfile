@@ -1,0 +1,45 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# Required software before running vagrant:
+# 1) VirtualBox for your OS, and Extention Pack, checked with 5.0.0.
+# 2) vagrant for your OS, checked with 1.7.4
+
+#----------------------- Uploading ----------------------
+# Uploading vagrant box to artifactory:
+# 1) Package running environment with Vagrantfile into box.
+#   Example: vagrant package --vagrantfile Vagrantfile --output ub_android_v01.box
+# 2) Publish vagrant box
+# manual command for publishing (take ~5 minutes):
+#   VAGRANT_BOX_LOCAL=/Users/dk/david/cisco/VEoP/new-android/VE-Tests/VE_android_ub_v01.box
+#   BOX_NAME="VE_android_ub_v01.box"
+#   ARTIFACTORY_PATH="http://engci-maven-master.cisco.com/artifactory/spvss-vci-service-release-repo/VEoP/vms/vagrant"
+#   ARTIFACTORY_USERNAME="spvss-vci-service-deployer"
+#   ARTIFACTORY_PASSWORD="spvss-vci-service-deployer"
+#   curl -v --user ${ARTIFACTORY_USERNAME}:${ARTIFACTORY_PASSWORD} --data-binary @${VAGRANT_BOX_LOCAL} -X PUT ${ARTIFACTORY_PATH}/${BOX_NAME}
+
+#------------------------- Globals --------------------
+# Globals:
+#Vagrant.require_version ">= 1.7.4"
+
+# helper to decide if we are on windows
+require 'ffi'
+is_windows = FFI::Platform::IS_WINDOWS ? false : true
+
+#------------------------ Configuration ---------------------
+Vagrant.configure(2) do |config|
+  config.vm.define "ve-tests" do |master|
+
+    master.vm.hostname = "ve-tests"
+    master.vm.box = master.vm.hostname.to_s
+    master.vm.box_url = "http://engci-maven-master.cisco.com/artifactory/spvss-vci-service-release-repo/VEoP/vms/vagrant/VE_android_ub_v01.box"
+    master.vm.boot_timeout = 900
+
+    master.vm.provider :virtualbox do |v|
+      v.name = master.vm.hostname.to_s
+    end
+
+    config.vm.network "public_network"
+  end
+end
+

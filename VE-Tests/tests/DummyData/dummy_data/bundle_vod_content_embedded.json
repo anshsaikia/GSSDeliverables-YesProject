@@ -1,0 +1,111 @@
+{
+    "assetList": {
+        "_metadata": {
+            "totalCount": 1,
+            "count": 1
+        },
+        "items": [{
+            "items": [{
+                "id": "programid://1690308823~programid://944769476",
+                "assetType": "vod",
+                "thumbnails": [{
+                    "size": "large",
+                    "mimeType": "image/jpeg",
+                    "uri": "http://image-srv.phoenix.cisco.com/html/VODposters.landscape/HorribleBosses.jpg"
+                }, {
+                    "size": "small",
+                    "mimeType": "image/jpeg",
+                    "uri": "http://image-srv.phoenix.cisco.com/html/VODposters.landscape/HorribleBosses.jpg"
+                }],
+                "title": "HorribleBosses",
+                "duration": 8400000,
+                "rating": 5,
+                "rentalStatus": "unentitled",
+                "centered": true,
+                "links": {
+                    "navigation": [{
+                        "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/vodActionMenu?contentId=programid://1690308823~programid://944769476&assetType=vod&region=1&catalogueId=1000",
+                        "triggers": ["tap"],
+                        "target": "/actionmenu"
+                    }]
+                }
+            }]
+        }]
+    },
+    "sortingAndFiltering": {
+        "items": [{
+            "items": [{
+                "title": "NEW",
+                "selected": false,
+                "centered": false,
+                "links": {
+                    "actions": [{
+                        triggers": ["tap"],
+                        "type": "self",
+                        "actions": [{
+                            "type": "reloadModel",
+                            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/embeddedStoreFullContent?classificationId=1073741831&catalogueId=1000&lastSelected=NEW&sort=NEW&filters=16:9",
+                            "model": "/models/fullcontent/fullcontent"
+                        }]
+                    }]
+                }
+            }, {
+                "title": "HD",
+                "selected": false,
+                "centered": false,
+                "links": {
+                    "actions": [{
+                        triggers": ["tap"],
+                        "actions": [{
+                            "type": "reloadModel",
+                            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/embeddedStoreFullContent?classificationId=1073741831&catalogueId=1000&lastSelected=HD&sort=AZ&filters=16:9,HD",
+                            "model": "/models/fullcontent/fullcontent"
+                        }]
+                    }]
+                }
+            }, {
+                "title": "AZ",
+                "selected": true,
+                "centered": false,
+                "links": {
+                    "actions": [{
+                        triggers": ["tap"],
+                        "actions": [{
+                            "type": "reloadModel",
+                            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/embeddedStoreFullContent?classificationId=1073741831&catalogueId=1000&lastSelected=AZ&sort=AZ&filters=16:9",
+                            "model": "/models/fullcontent/fullcontent"
+                        }]
+                    }]
+                }
+            }, {
+                "title": "RATING",
+                "selected": false,
+                "centered": false,
+                "links": {
+                    "actions": [{
+                        triggers": ["tap"],
+                        "actions": [{
+                            "type": "reloadModel",
+                            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/embeddedStoreFullContent?classificationId=1073741831&catalogueId=1000&lastSelected=RATING&sort=RATING&filters=16:9",
+                            "model": "/models/fullcontent/fullcontent"
+                        }]
+                    }]
+                }
+            }, {
+                "title": "16:9",
+                "selected": true,
+                "centered": true,
+                "links": {
+                    "actions": [{
+                        triggers": ["tap"],
+                        "actions": [{
+                            "type": "reloadModel",
+                            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/embeddedStoreFullContent?classificationId=1073741831&catalogueId=1000&lastSelected=16:9&sort=AZ&filters=16:9",
+                            "model": "/models/fullcontent/fullcontent"
+                        }]
+                    }]
+                }
+            }]
+        }]
+    }
+}

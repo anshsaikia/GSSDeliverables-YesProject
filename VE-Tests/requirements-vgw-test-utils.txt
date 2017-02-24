@@ -1,0 +1,22 @@
+-i https://engci-maven-master.cisco.com/artifactory/api/pypi/SPVSS-IH-PYPI-group/simple
+vgw-test-utils
+configparser
+Appium-Python-Client
+selenium==2.46.0
+bunch
+pytest
+pytz
+python-dateutil
+python-jsonrpc
+requests
+setuptools==33.1.1
+web.py
+enum
+enum34
+suds==0.4
+pytest-repeat
+termcolor
+ipython
+retrying
+pycrypto
+lazy

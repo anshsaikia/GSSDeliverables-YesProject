@@ -1,0 +1,64 @@
+
+{
+    "resource": "fullscreen",
+    "embedded": {
+        "fullscreen": {
+
+            "links": {
+                "actions": [{
+                    "triggers": [
+                        "tap"
+                    ],
+                    "target": "/linearActionMenu",
+                    "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/liveActionMenu?contentId=programid%3A%2F%2F1610612739~programid%3A%2F%2F1610612753&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                }, {
+                    "triggers": [
+                        "long_press"
+                    ],
+                    "target": "/hub",
+                    "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/mainHub"
+                }, {
+				    "triggers": [
+				        "swipe_long_down",
+				        "swipe_long_up"
+				    ],
+                    "target": "/zapList",
+                    "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/zaplist"
+				}, {
+                    "triggers": [
+                        "swipe_left",
+                        "swipe_right"
+                    ],
+                    "target": "/timeline",
+                    "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/timeline"
+                }, {
+                    "triggers": [
+                        "swipe_up"
+                    ],
+                    "method": "POST",
+                    "target": "/device/player",
+                    "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=102&sessionId={sessionId}&currentTime={currentTime}"
+                }, {
+                    "triggers": [
+                        "swipe_up"
+                    ],
+                    "target": "/fullscreen",
+                    "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=102&serviceLocator=%7B2%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BNWYzNzc1YTc3NzY5MmI5NGFhNzY%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+                }, {
+                    "triggers": [
+                        "swipe_down"
+                    ],
+                    "method": "POST",
+                    "target": "/device/player",
+                    "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullScreen/playtv?serviceId=102&sessionId={sessionId}&currentTime={currentTime}"
+                }, {
+                    "triggers": [
+                        "swipe_down"
+                    ],
+                    "target": "/fullscreen",
+                    "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/fullscreen?serviceId=102&serviceLocator=%7B2%2Cjava.lang.Integer%2CNORMAL%7D-%7C-%7BNWYzNzc1YTc3NzY5MmI5NGFhNzY%3D%2Cjava.lang.String%2CNORMAL%7D%5B%2B%5D%7BlogicalChannelNumber.1000%2CNORMAL%7D-%7C-%7BhashKey%2CNORMAL%7D"
+                }]
+            }
+        }
+    }
+}

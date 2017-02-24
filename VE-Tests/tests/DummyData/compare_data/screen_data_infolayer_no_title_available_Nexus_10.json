@@ -1,0 +1,55 @@
+{
+    "elements": [
+        {
+            "screen": "infolayer",
+            "name": "infolayer",
+            "action_type": "state"
+        },
+        {
+            "name": "progress_view",
+            "x_pos": "null",
+            "y_pos": "null",
+            "compare_value": false,
+            "height": "null"
+        },
+        {
+            "name": "text_view",
+            "x_pos": "null",
+            "height": "null",
+            "action_type": "tap",
+            "y_pos": "null",
+            "id": "airing_time",
+            "compare_value": false
+        },
+        {
+            "name": "text_view",
+            "x_pos": "null",
+            "title_text": "No title available",
+            "height": "null",
+            "width": "null",
+            "action_type": "tap",
+            "y_pos": "null",
+            "id": "info_title",
+            "compare_value": true
+        },
+        {
+            "name": "text_view",
+            "x_pos": "null",
+            "title_text": "2",
+            "height": "null",
+            "width": "null",
+            "action_type": "tap",
+            "y_pos": "null",
+            "id": "LCN",
+            "compare_value": true
+        },
+        {
+            "name": "image_view",
+            "x_pos": "null",
+            "height": "null",
+            "width": "null",
+            "image_url": null,
+            "y_pos": "null"
+        }
+    ]
+}

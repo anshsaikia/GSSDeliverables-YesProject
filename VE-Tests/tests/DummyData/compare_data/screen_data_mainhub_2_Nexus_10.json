@@ -1,0 +1,218 @@
+{
+    "elements": [
+        {
+            "screen": "main_hub",
+            "name": "main_hub",
+            "action_type": "state"
+        },
+        {
+            "name": "main_hub_scroll_area",
+            "x_pos": "null",
+            "height": "null",
+            "width": "null",
+            "action_type": "scroll",
+            "y_pos": "null"
+        },
+        {
+            "name": "sliding_label_view",
+            "x_pos": "null",
+            "height": "null",
+            "width": "null",
+            "regular_text": "PROGRAM",
+            "action_type": "tap",
+            "y_pos": "null",
+            "bold_text": "PROGRAM"
+        },
+        {
+            "name": "sliding_label_view",
+            "x_pos": "null",
+            "height": "null",
+            "width": "null",
+            "regular_text": "TELEVISION",
+            "action_type": "tap",
+            "y_pos": "null",
+            "bold_text": "TELEVISION"
+        },
+        {
+            "name": "sliding_label_view",
+            "x_pos": "null",
+            "height": "null",
+            "width": "null",
+            "regular_text": "LIBRARY",
+            "action_type": "tap",
+            "y_pos": "null",
+            "bold_text": "LIBRARY"
+        },
+        {
+            "name": "ShowcaseExpo_LIBRARY",
+            "x_pos": "null",
+            "height": "null",
+            "width": "null",
+            "action_type": "scroll",
+            "y_pos": "null",
+            "is_showcase_focused": false
+        },
+        {
+            "name": "event_view",
+            "x_pos": "null",
+            "progress_bar": "null",
+            "time_text": "null",
+            "title_text": null,
+            "height": "null",
+            "width": "null",
+            "action_type": "tap",
+            "y_pos": "null",
+            "channel_logo_url": null
+        },
+        {
+            "name": "sliding_label_view",
+            "x_pos": "null",
+            "height": "null",
+            "width": "null",
+            "regular_text": "STORE",
+            "action_type": "tap",
+            "y_pos": "null",
+            "bold_text": "STORE"
+        },
+        {
+            "name": "ShowcaseExpo_STORE",
+            "x_pos": "null",
+            "height": "null",
+            "width": "null",
+            "action_type": "scroll",
+            "y_pos": "null",
+            "is_showcase_focused": false
+        },
+        {
+            "name": "event_view",
+            "x_pos": "null",
+            "progress_bar": "null",
+            "event_id": "programid:__574619662~programid:__67",
+            "time_text": "null",
+            "event_image_url": "file:///android_asset/dummy_images/c7e454eb4211214beae7615cd7678130.jpg",
+            "title_text": "THE DUFF",
+            "height": "null",
+            "width": "null",
+            "synopsis": "A high school senior instigates a social pecking order revolution after finding out that she has been labeled the DUFF to her prettier more popular frienetflix.",
+            "is_current": false,
+            "action_type": "tap",
+            "y_pos": "null",
+            "channel_logo_url": null,
+            "event_type": "EVENT_TYPE_VOD_ASSET"
+        },
+        {
+            "name": "ShowcaseExpo_TV",
+            "x_pos": "null",
+            "height": "null",
+            "width": "null",
+            "action_type": "scroll",
+            "y_pos": "null",
+            "is_showcase_focused": true
+        },
+        {
+            "name": "event_view",
+            "x_pos": "null",
+            "channel_id": "107",
+            "event_id": "programid://394211558~programid://1900020230",
+            "time_text": "null",
+            "event_image_url": "file:///android_asset/dummy_images/b9ffa2e63c57ad09a1fc041fd7c37b1e.jpg",
+            "title_text": "M0715S107E007:NAME:EN",
+            "height": "null",
+            "width": "null",
+            "synopsis": null,
+            "is_current": true,
+            "action_type": "tap",
+            "y_pos": "null",
+            "event_type": "EVENT_CONTENT_TYPE_STANDALONE",
+            "progress_bar": "null",
+            "channel_logo_url": "file:///android_asset/dummy_images/364c44f325dd0ab64025de4023a4cd28.png",
+            "channel_number": "7",
+            "channel_name": "ASXTV"
+        },
+        {
+            "name": "event_view",
+            "x_pos": "null",
+            "channel_id": "108",
+            "event_id": "programid://1830050630~programid://322091748",
+            "time_text": "null",
+            "event_image_url": "file:///android_asset/dummy_images/b1771489c637f5d3936c13b04e31d348.jpg",
+            "title_text": "M0715S108E004:NAME:EN",
+            "height": "null",
+            "width": "null",
+            "synopsis": null,
+            "is_current": true,
+            "action_type": "tap",
+            "y_pos": "null",
+            "event_type": "EVENT_CONTENT_TYPE_STANDALONE",
+            "progress_bar": "null",
+            "channel_logo_url": "file:///android_asset/dummy_images/c588573a0c6551db5dbdc4b69ff12f15.png",
+            "channel_number": "8",
+            "channel_name": "DSCHD"
+        },
+        {
+            "name": "event_view",
+            "x_pos": "null",
+            "channel_id": "109",
+            "event_id": "programid://1436549399~programid://521016790",
+            "time_text": "null",
+            "event_image_url": "file:///android_asset/dummy_images/b1771489c637f5d3936c13b04e31d348.jpg",
+            "title_text": "M0715S109E004:NAME:EN",
+            "height": "null",
+            "width": "null",
+            "synopsis": "Having bought a model ship, the Unicorn, for a pound off a market stall Tintin is initially puzzled that the sinister Mr. Sakharine should be so eager to buy it from him, resorting to murder and kidnapping Tintin - accompanied by his marvellous dog Snowy - to join him and his gang as they sail to Morocco on an old cargo ship.",
+            "is_current": true,
+            "action_type": "tap",
+            "y_pos": "null",
+            "event_type": "EVENT_CONTENT_TYPE_STANDALONE",
+            "progress_bar": "null",
+            "channel_logo_url": "file:///android_asset/dummy_images/73525ec2245736416e089647685fa534.png",
+            "channel_number": "9",
+            "channel_name": "HISTORY"
+        },
+        {
+            "name": "text_view",
+            "x_pos": "null",
+            "title_text": "CELINE",
+            "height": "null",
+            "width": "null",
+            "action_type": "tap",
+            "y_pos": "null"
+        },
+        {
+            "name": "text_view",
+            "x_pos": "null",
+            "title_text": "SEARCH",
+            "height": "null",
+            "width": "null",
+            "action_type": "tap",
+            "y_pos": "null"
+        },
+        {
+            "name": "text_view",
+            "x_pos": "null",
+            "title_text": "SETTINGS",
+            "height": "null",
+            "width": "null",
+            "action_type": "tap",
+            "y_pos": "null"
+        },
+        {
+            "name": "text_view",
+            "x_pos": "null",
+            "height": "null",
+            "action_type": "tap",
+            "y_pos": "null",
+            "id": "",
+            "compare_value": false
+        },
+        {
+            "name": "text_view",
+            "x_pos": "null",
+            "title_text": "",
+            "height": "null",
+            "width": "null",
+            "action_type": "tap",
+            "y_pos": "null"
+        }
+    ]
+}

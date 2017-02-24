@@ -1,0 +1,37 @@
+{
+    "resource": "fullscreen",
+    "embedded": {
+        "fullscreen": {
+            "assetDetails": {
+                "programId": "programid://1074631735~programid://1436229722",
+                "assetType": "broadcast",
+                "thumbnails": [{
+                    "size": "large",
+                    "mimeType": "image/jpeg",
+                    "uri": "file:///android_asset/debug/dummy_thumbnail_1.jpg"
+                }],
+                "title": "I0215S101E009:Name:En",
+                "rating": 13,
+                "duration": 5400000,
+                "startTime": 1424001600000,
+                "channelId": "101",
+                "logicalChannelNumber": 33,
+                "channelName": "AETV",
+                "channelLogos": [{
+                    "size": "vect",
+                    "mimeType": "image/png",
+                    "uri": "file:///android_asset/debug/dummy_logo_1.png"
+                }]
+            },
+            "links": {
+                "actions": [{
+                    "triggers": [
+                        "tap"
+                    ],
+                    "target": "/actionmenu",
+                    "href": "http://10.57.36.43:81/sf14/tenant/mobile/14.0.1/fullScreenActionMenu?serviceId=101&assetType=ltv&region=1000&userRegion=100"
+                }]
+            }
+        }
+    }
+}

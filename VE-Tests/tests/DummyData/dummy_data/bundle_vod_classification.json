@@ -1,0 +1,610 @@
+{
+    "resource": "storemenu",
+    "embedded": {
+        "storeMenu": {
+            "count": 6,
+            "total": 6,
+            "items": [{
+                "title": "BOX OFFICE",
+                "totalCount": 27,
+                "count": 27,
+                "items": [{
+                    "programId": "programid://1610612739~programid://1610612753",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_1.jpg"
+                    }],
+                    "title": "Adventures Of Tintin, The",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F1610612739~programid%3A%2F%2F1610612753&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 6420000
+                }, {
+                    "programId": "programid://0~programid://1744830482",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_2.jpg"
+                    }],
+                    "title": "Bachelorette",
+                    "rating": 7,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F0~programid%3A%2F%2F1744830482&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 5220000
+                }, {
+                    "programId": "programid://1610612738~programid://1610612752",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_3.jpg"
+                    }],
+                    "title": "Dark Skies",
+                    "rating": 6,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F1610612738~programid%3A%2F%2F1610612752&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 5820000
+                }, {
+                    "programId": "programid://536870920~programid://536870944",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_4.jpg"
+                    }],
+                    "title": "Django Unchained",
+                    "rating": 7,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F536870920~programid%3A%2F%2F536870944&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 9900000
+                }, {
+                    "programId": "programid://41943047~programid://1811939348",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_5.jpg"
+                    }],
+                    "title": "Escape From Planet Earth",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F41943047~programid%3A%2F%2F1811939348&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 5400000
+                }, {
+                    "programId": "programid://536870914~programid://1073741845",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_6.jpg"
+                    }],
+                    "title": "Friends",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F536870914~programid%3A%2F%2F1073741845&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 8400000
+                }, {
+                    "programId": "programid://41943051~programid://1811939358",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_7.jpg"
+                    }],
+                    "title": "Gangster Squad",
+                    "rating": 6,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F41943051~programid%3A%2F%2F1811939358&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 6780000
+                }, {
+                    "programId": "programid://33554436~programid://1476395027",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_8.jpg"
+                    }],
+                    "title": "Good Day To Die Hard A",
+                    "rating": 6,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F33554436~programid%3A%2F%2F1476395027&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 5880000
+                }, {
+                    "programId": "programid://1879048197~programid://1744830495",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_9.jpg"
+                    }],
+                    "title": "Guilt Trip, The",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F1879048197~programid%3A%2F%2F1744830495&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 5700000
+                }, {
+                    "programId": "programid://67108873~programid://1073741846",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_10.jpg"
+                    }],
+                    "title": "Hyde Park On Hudson",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F67108873~programid%3A%2F%2F1073741846&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 5700000
+                }, {
+                    "programId": "programid://1879048198~programid://1744830491",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_1.jpg"
+                    }],
+                    "title": "Jack The Giant Slayer",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F1879048198~programid%3A%2F%2F1744830491&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 6840000
+                }, {
+                    "programId": "programid://41943049~programid://1811939353",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_2.jpg"
+                    }],
+                    "title": "Killing Them Softly",
+                    "rating": 7,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F41943049~programid%3A%2F%2F1811939353&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 5820000
+                }, {
+                    "programId": "programid://41943052~programid://1811939347",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_3.jpg"
+                    }],
+                    "title": "Last Stand, The",
+                    "rating": 6,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F41943052~programid%3A%2F%2F1811939347&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 6420000
+                }, {
+                    "programId": "programid://33554437~programid://1476395028",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_4.jpg"
+                    }],
+                    "title": "Life of Pi",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F33554437~programid%3A%2F%2F1476395028&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 7620000
+                }, {
+                    "programId": "programid://75497529~programid://1704329273",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_5.jpg"
+                    }],
+                    "title": "National Treasure",
+                    "rating": 7,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F75497529~programid%3A%2F%2F1704329273&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 10740000
+                }, {
+                    "programId": "programid://462684243~programid://681115738",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_7.jpg"
+                    }],
+                    "title": "New vampire featuring Rob",
+                    "rating": 2,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F462684243~programid%3A%2F%2F681115738&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 10740000
+                }, {
+                    "programId": "programid://134217732~programid://1744830485",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_8.jpg"
+                    }],
+                    "title": "Parental Guidance ",
+                    "rating": 4,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F134217732~programid%3A%2F%2F1744830485&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 6300000
+                }, {
+                    "programId": "programid://41943048~programid://1811939351",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_9.jpg"
+                    }],
+                    "title": "Playing For Keeps",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F41943048~programid%3A%2F%2F1811939351&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 6120000
+                }, {
+                    "programId": "programid://1342177286~programid://1476395025",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_10.jpg"
+                    }],
+                    "title": "Promised Land",
+                    "rating": 6,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F1342177286~programid%3A%2F%2F1476395025&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 6360000
+                }, {
+                    "programId": "programid://2~programid://1744830483",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_1.jpg"
+                    }],
+                    "title": "Red Dawn",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F2~programid%3A%2F%2F1744830483&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 5580000
+                }, {
+                    "programId": "programid://1~programid://1744830484",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_2.jpg"
+                    }],
+                    "title": "Safe Haven",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F1~programid%3A%2F%2F1744830484&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 6900000
+                }, {
+                    "programId": "programid://536870913~programid://1610612751",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_3.jpg"
+                    }],
+                    "title": "Shrek",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F536870913~programid%3A%2F%2F1610612751&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 8400000
+                }, {
+                    "programId": "programid://67108870~programid://40",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_4.jpg"
+                    }],
+                    "title": "Side Effects",
+                    "rating": 6,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F67108870~programid%3A%2F%2F40&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 6360000
+                }, {
+                    "programId": "programid://536870915~programid://1610612750",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_5.jpg"
+                    }],
+                    "title": "Simpsons",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F536870915~programid%3A%2F%2F1610612750&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 8400000
+                }, {
+                    "programId": "programid://41943053~programid://1811939352",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_6.jpg"
+                    }],
+                    "title": "Snitch",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F41943053~programid%3A%2F%2F1811939352&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 6720000
+                }, {
+                    "programId": "programid://805306374~programid://1375731731",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_7.jpg"
+                    }],
+                    "title": "This is 40",
+                    "rating": 6,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F805306374~programid%3A%2F%2F1375731731&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 8100000
+                }, {
+                    "programId": "programid://41943050~programid://1811939356",
+                    "assetType": "vod",
+                    "thumbnails": [{
+                        "size": "large",
+                        "mimeType": "image/jpeg",
+                        "uri": "file:///android_asset/debug/dummy_poster_8.jpg"
+                    }],
+                    "title": "Warm Bodies",
+                    "rating": 5,
+                    "links": {
+                        "actions": [{
+                            "triggers": [
+                                "tap"
+                            ],
+                            "target": "/actionmenu",
+                            "href": "http://localhost:8000/sf14/tenant/mobile/14.0.1/vodActionMenu?contentId=programid%3A%2F%2F41943050~programid%3A%2F%2F1811939356&assetType=vod&region=1000&userRegion=100&catalogueId=1000"
+                        }]
+                    },
+                    "duration": 5880000
+                }]
+            }, {
+                "title": "NEW FILMS",
+                "count": 1,
+                "total": 1,
+                "items": [{
+                    "title": "NEW FILMS",
+                    "links": {
+                        "navigation": [{
+                            "triggers": ["tap"],
+                            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/storeFullContent?classificationId=1073741831&catalogueId=1000",
+                            "target": "/fullContent"
+                        }]
+                    }
+                }]
+            }, {
+                "title": "POPULAR",
+                "count": 1,
+                "total": 1,
+                "items": [{
+                    "title": "POPULAR",
+                    "links": {
+                        "navigation": [{
+                            "triggers": ["tap"],
+                            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/storeFullContent?classificationId=1073741831&catalogueId=1000",
+                            "target": "/fullContent"
+                        }]
+                    }
+                }]
+            }, {
+                "title": "GENRES",
+                "count": 1,
+                "total": 1,
+                "items": [{
+                    "title": "GENRES",
+                    "links": {
+                        "navigation": [{
+                            "triggers": ["tap"],
+                            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/storeFullContent?classificationId=1073741831&catalogueId=1000",
+                            "target": "/storeMenu"
+                        }]
+                    }
+                }]
+            }]
+        }
+    },
+    "links": {
+        "navigation": [{
+            "name": "home",
+            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/hub?catalogueId=1000",
+            "triggers": ["home"],
+            "target": "/hub"
+        }, {
+            "name": "profile",
+            "href": "http://10.57.36.20:8000/sf14/cva/stb/14.0.1/currentprofile?",
+            "triggers": ["long home"],
+            "target": "/profile"
+        }]
+    }
+}
